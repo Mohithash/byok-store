@@ -20,7 +20,8 @@ for p in sorted(glob.glob("/root/claude/Factory/specs/*.json")):
         "tools": [{"emoji": t["emoji"], "title": t["title"], "subtitle": t["subtitle"]} for t in s["tools"]],
         "apk": f"https://github.com/Mohithash/byok-factory/releases/download/{pid}-v1.0/{pid}-v1.0.apk",
         "aab": f"https://github.com/Mohithash/byok-factory/releases/download/{pid}-v1.0/{pid}-v1.0.aab",
-        "source": "https://github.com/Mohithash/byok-factory", "listing": f"https://github.com/Mohithash/byok-factory/blob/main/listings/{pid}.md", "kind": "factory"})
+        "source": "https://github.com/Mohithash/byok-factory", "listing": f"https://github.com/Mohithash/byok-factory/blob/main/listings/{pid}.md", "kind": "factory",
+        "released": os.path.exists(f"/root/claude/Factory/dist/{pid}-v1.0.aab")})
 
 BESPOKE = [
  ("CalorieBank", "Calorie Bank", "Weight to lose as a kcal balance you spend down daily", "Health & Fitness", ["#1B5E4A", "#8A5A00", "#00658E"], "coin", "Bank model with daily settlement, zero-date estimate, water tracker and photo/text calorie estimation.", "v1.2", "CalorieBank-v1.2-release.apk", "CalorieBank-v1.2-release.aab", "com.mohithash.caloriebank"),
@@ -39,7 +40,7 @@ BESPOKE = [
 for d, name, tag, cat, colors, icon, about, ver, apk, aab, pkg in BESPOKE:
     apps.insert(0, {"id": d.lower(), "name": name, "tagline": tag, "category": cat, "about": about, "colors": colors, "icon": icon, "package": pkg, "tools": [],
         "apk": f"https://github.com/Mohithash/{d}/releases/download/{ver}/{apk}", "aab": f"https://github.com/Mohithash/{d}/releases/download/{ver}/{aab}",
-        "source": f"https://github.com/Mohithash/{d}", "listing": f"https://github.com/Mohithash/{d}#readme", "kind": "bespoke"})
+        "source": f"https://github.com/Mohithash/{d}", "listing": f"https://github.com/Mohithash/{d}#readme", "kind": "bespoke", "released": True})
 
 for a in apps:
     g = GLYPHS.get(a["icon"], GLYPHS["spark"]); c0, c1 = a["colors"][0], (a["colors"][1] if len(a["colors"]) > 1 else a["colors"][0])
