@@ -1,0 +1,4615 @@
+{
+"generated": "2026-09-19",
+"count": 115,
+"categories": [
+"Auto & Vehicles",
+"Beauty",
+"Books & Reference",
+"Business",
+"Communication",
+"Dating",
+"Education",
+"Finance",
+"Food & Drink",
+"Games",
+"Health & Fitness",
+"Hobbies",
+"House & Home",
+"Lifestyle",
+"Medical",
+"Music & Audio",
+"Parenting",
+"Photography",
+"Productivity",
+"Shopping",
+"Social",
+"Sports",
+"Tools",
+"Travel & Local"
+],
+"apps": [
+{
+"id": "storynest",
+"name": "Story Nest",
+"tagline": "Bedtime, made easy",
+"category": "Parenting",
+"about": "Personalised bedtime stories with read mode, sequels and a library.",
+"colors": [
+"#6A1B9A",
+"#FFB300",
+"#00897B"
+],
+"icon": "star",
+"package": "com.mohithash.storynest",
+"tools": [],
+"apk": "https://github.com/Mohithash/StoryNest/releases/download/v1.0/StoryNest-v1.0.apk",
+"aab": "https://github.com/Mohithash/StoryNest/releases/download/v1.0/StoryNest-v1.0.aab",
+"source": "https://github.com/Mohithash/StoryNest",
+"listing": "https://github.com/Mohithash/StoryNest#readme",
+"kind": "bespoke",
+"icon_url": "icons/storynest.svg"
+},
+{
+"id": "draftly",
+"name": "Draftly",
+"tagline": "Say it well",
+"category": "Communication",
+"about": "Reply, rewrite, summarise, translate, expand, shorten — from text or screenshot.",
+"colors": [
+"#00838F",
+"#F4511E",
+"#5E35B1"
+],
+"icon": "chat",
+"package": "com.mohithash.draftly",
+"tools": [],
+"apk": "https://github.com/Mohithash/Draftly/releases/download/v1.0/Draftly-v1.0.apk",
+"aab": "https://github.com/Mohithash/Draftly/releases/download/v1.0/Draftly-v1.0.aab",
+"source": "https://github.com/Mohithash/Draftly",
+"listing": "https://github.com/Mohithash/Draftly#readme",
+"kind": "bespoke",
+"icon_url": "icons/draftly.svg"
+},
+{
+"id": "sprout",
+"name": "Sprout",
+"tagline": "Keep them alive",
+"category": "House & Home",
+"about": "Plant ID + care plan, watering countdowns, plant doctor, care log.",
+"colors": [
+"#2E7D32",
+"#FF8F00",
+"#0288D1"
+],
+"icon": "leaf",
+"package": "com.mohithash.sprout",
+"tools": [],
+"apk": "https://github.com/Mohithash/Sprout/releases/download/v1.0/Sprout-v1.0.apk",
+"aab": "https://github.com/Mohithash/Sprout/releases/download/v1.0/Sprout-v1.0.aab",
+"source": "https://github.com/Mohithash/Sprout",
+"listing": "https://github.com/Mohithash/Sprout#readme",
+"kind": "bespoke",
+"icon_url": "icons/sprout.svg"
+},
+{
+"id": "braindump",
+"name": "Braindump",
+"tagline": "Get it out of your head",
+"category": "Productivity",
+"about": "Brain dump → prioritised tasks, time-blocked day plan, weekly review.",
+"colors": [
+"#3949AB",
+"#FF6F00",
+"#00897B"
+],
+"icon": "brain",
+"package": "com.mohithash.braindump",
+"tools": [],
+"apk": "https://github.com/Mohithash/Braindump/releases/download/v1.0/Braindump-v1.0.apk",
+"aab": "https://github.com/Mohithash/Braindump/releases/download/v1.0/Braindump-v1.0.aab",
+"source": "https://github.com/Mohithash/Braindump",
+"listing": "https://github.com/Mohithash/Braindump#readme",
+"kind": "bespoke",
+"icon_url": "icons/braindump.svg"
+},
+{
+"id": "tripweaver",
+"name": "Trip Weaver",
+"tagline": "Trips, woven for you",
+"category": "Travel & Local",
+"about": "Neighbourhood-grouped itineraries, redo-a-day, packing list, tips, phrases.",
+"colors": [
+"#0277BD",
+"#FF8F00",
+"#2E7D32"
+],
+"icon": "plane",
+"package": "com.mohithash.tripweaver",
+"tools": [],
+"apk": "https://github.com/Mohithash/TripWeaver/releases/download/v1.0/TripWeaver-v1.0.apk",
+"aab": "https://github.com/Mohithash/TripWeaver/releases/download/v1.0/TripWeaver-v1.0.aab",
+"source": "https://github.com/Mohithash/TripWeaver",
+"listing": "https://github.com/Mohithash/TripWeaver#readme",
+"kind": "bespoke",
+"icon_url": "icons/tripweaver.svg"
+},
+{
+"id": "cram",
+"name": "Cram",
+"tagline": "Study smarter",
+"category": "Education",
+"about": "Notes or a textbook photo → summary, flashcards, quiz, grounded tutor.",
+"colors": [
+"#7B1FA2",
+"#FFC107",
+"#0097A7"
+],
+"icon": "book",
+"package": "com.mohithash.cram",
+"tools": [],
+"apk": "https://github.com/Mohithash/Cram/releases/download/v1.0/Cram-v1.0.apk",
+"aab": "https://github.com/Mohithash/Cram/releases/download/v1.0/Cram-v1.0.aab",
+"source": "https://github.com/Mohithash/Cram",
+"listing": "https://github.com/Mohithash/Cram#readme",
+"kind": "bespoke",
+"icon_url": "icons/cram.svg"
+},
+{
+"id": "repcoach",
+"name": "Rep Coach",
+"tagline": "Train with a plan",
+"category": "Health & Fitness",
+"about": "Generated programme, set logging, post-session coach review, PRs.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#00838F"
+],
+"icon": "dumbbell",
+"package": "com.mohithash.repcoach",
+"tools": [],
+"apk": "https://github.com/Mohithash/RepCoach/releases/download/v1.0/RepCoach-v1.0.apk",
+"aab": "https://github.com/Mohithash/RepCoach/releases/download/v1.0/RepCoach-v1.0.aab",
+"source": "https://github.com/Mohithash/RepCoach",
+"listing": "https://github.com/Mohithash/RepCoach#readme",
+"kind": "bespoke",
+"icon_url": "icons/repcoach.svg"
+},
+{
+"id": "ledgerly",
+"name": "Ledgerly",
+"tagline": "Know where it goes",
+"category": "Finance",
+"about": "Receipt photo → expense, budgets, donut/trend charts, monthly insight.",
+"colors": [
+"#00695C",
+"#F4B400",
+"#6A4CB0"
+],
+"icon": "coin",
+"package": "com.mohithash.ledgerly",
+"tools": [],
+"apk": "https://github.com/Mohithash/Ledgerly/releases/download/v1.0/Ledgerly-v1.0.apk",
+"aab": "https://github.com/Mohithash/Ledgerly/releases/download/v1.0/Ledgerly-v1.0.aab",
+"source": "https://github.com/Mohithash/Ledgerly",
+"listing": "https://github.com/Mohithash/Ledgerly#readme",
+"kind": "bespoke",
+"icon_url": "icons/ledgerly.svg"
+},
+{
+"id": "lingoloop",
+"name": "Lingo Loop",
+"tagline": "Speak from day one",
+"category": "Education",
+"about": "Role-play language tutor with corrections and auto flashcards (SM-2).",
+"colors": [
+"#1565C0",
+"#FF7043",
+"#26A69A"
+],
+"icon": "chat",
+"package": "com.mohithash.lingoloop",
+"tools": [],
+"apk": "https://github.com/Mohithash/LingoLoop/releases/download/v1.0/LingoLoop-v1.0.apk",
+"aab": "https://github.com/Mohithash/LingoLoop/releases/download/v1.0/LingoLoop-v1.0.aab",
+"source": "https://github.com/Mohithash/LingoLoop",
+"listing": "https://github.com/Mohithash/LingoLoop#readme",
+"kind": "bespoke",
+"icon_url": "icons/lingoloop.svg"
+},
+{
+"id": "mindstream",
+"name": "Mindstream",
+"tagline": "A quiet place to think",
+"category": "Lifestyle",
+"about": "Journaling with mood, AI reflections, weekly insight and streaks.",
+"colors": [
+"#5B4BC4",
+"#E86A8A",
+"#2A9D8F"
+],
+"icon": "moon",
+"package": "com.mohithash.mindstream",
+"tools": [],
+"apk": "https://github.com/Mohithash/Mindstream/releases/download/v1.0/Mindstream-v1.0.apk",
+"aab": "https://github.com/Mohithash/Mindstream/releases/download/v1.0/Mindstream-v1.0.aab",
+"source": "https://github.com/Mohithash/Mindstream",
+"listing": "https://github.com/Mohithash/Mindstream#readme",
+"kind": "bespoke",
+"icon_url": "icons/mindstream.svg"
+},
+{
+"id": "pantrychef",
+"name": "Pantry Chef",
+"tagline": "Cook from what you have",
+"category": "Food & Drink",
+"about": "Fridge photo → pantry, recipes with have/need markers, cook mode, grocery list.",
+"colors": [
+"#D9481F",
+"#2E7D32",
+"#F9A825"
+],
+"icon": "leaf",
+"package": "com.mohithash.pantrychef",
+"tools": [],
+"apk": "https://github.com/Mohithash/PantryChef/releases/download/v1.0/PantryChef-v1.0.apk",
+"aab": "https://github.com/Mohithash/PantryChef/releases/download/v1.0/PantryChef-v1.0.aab",
+"source": "https://github.com/Mohithash/PantryChef",
+"listing": "https://github.com/Mohithash/PantryChef#readme",
+"kind": "bespoke",
+"icon_url": "icons/pantrychef.svg"
+},
+{
+"id": "caloriebank",
+"name": "Calorie Bank",
+"tagline": "Weight to lose as a kcal balance you spend down daily",
+"category": "Health & Fitness",
+"about": "Bank model with daily settlement, zero-date estimate, water tracker and photo/text calorie estimation.",
+"colors": [
+"#1B5E4A",
+"#8A5A00",
+"#00658E"
+],
+"icon": "coin",
+"package": "com.mohithash.caloriebank",
+"tools": [],
+"apk": "https://github.com/Mohithash/CalorieBank/releases/download/v1.2/CalorieBank-v1.2-release.apk",
+"aab": "https://github.com/Mohithash/CalorieBank/releases/download/v1.2/CalorieBank-v1.2-release.aab",
+"source": "https://github.com/Mohithash/CalorieBank",
+"listing": "https://github.com/Mohithash/CalorieBank#readme",
+"kind": "bespoke",
+"icon_url": "icons/caloriebank.svg"
+},
+{
+"id": "adhd_daily",
+"name": "Focus Friend",
+"tagline": "ADHD-friendly structure for real days",
+"category": "Health & Fitness",
+"about": "Focus Friend builds low-friction daily plans, breaks tasks down to the first step, sets up body-doubling and dopamine-aware routines, and helps with transitions.",
+"colors": [
+"#FF7043",
+"#26A69A",
+"#5E35B1"
+],
+"icon": "brain",
+"package": "com.mohithash.byok.adhddaily",
+"tools": [
+{
+"emoji": "🗓️",
+"title": "Plan today",
+"subtitle": "Loose, forgiving"
+},
+{
+"emoji": "🔨",
+"title": "Break it down",
+"subtitle": "Until it's obvious"
+},
+{
+"emoji": "🧊",
+"title": "Reset",
+"subtitle": "Overwhelmed or frozen"
+},
+{
+"emoji": "🌅",
+"title": "Morning routine",
+"subtitle": "Launch sequence"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/adhd_daily-v1.0/adhd_daily-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/adhd_daily-v1.0/adhd_daily-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/adhd_daily.md",
+"kind": "factory",
+"icon_url": "icons/adhd_daily.svg"
+},
+{
+"id": "allergy_safe",
+"name": "Allergy Safe",
+"tagline": "Eat out and cook safely with food allergies",
+"category": "Health & Fitness",
+"about": "Allergy Safe scans labels and menus for your allergens, writes chef cards in any language, and plans safe meals and travel.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#00897B"
+],
+"icon": "shield",
+"package": "com.mohithash.byok.allergysafe",
+"tools": [
+{
+"emoji": "📷",
+"title": "Scan a label",
+"subtitle": "Photo → verdict"
+},
+{
+"emoji": "🍽️",
+"title": "Scan a menu",
+"subtitle": "Photo → safe picks"
+},
+{
+"emoji": "🗂️",
+"title": "Chef card",
+"subtitle": "In any language"
+},
+{
+"emoji": "🍳",
+"title": "Safe recipe",
+"subtitle": "Swap out allergens"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/allergy_safe-v1.0/allergy_safe-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/allergy_safe-v1.0/allergy_safe-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/allergy_safe.md",
+"kind": "factory",
+"icon_url": "icons/allergy_safe.svg"
+},
+{
+"id": "apartment_hunt",
+"name": "Home Hunt",
+"tagline": "Find, view and secure your next rental",
+"category": "House & Home",
+"about": "Home Hunt turns your needs into a search plan, scores listings, prepares viewing checklists and drafts applications that stand out.",
+"colors": [
+"#00838F",
+"#FF8F00",
+"#5E35B1"
+],
+"icon": "pin",
+"package": "com.mohithash.byok.apartmenthunt",
+"tools": [
+{
+"emoji": "🗺️",
+"title": "Search plan",
+"subtitle": "Where and how"
+},
+{
+"emoji": "⭐",
+"title": "Score a listing",
+"subtitle": "Paste it"
+},
+{
+"emoji": "🔍",
+"title": "Viewing checklist",
+"subtitle": "Don't miss anything"
+},
+{
+"emoji": "✉️",
+"title": "Application & offer",
+"subtitle": "Stand out"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/apartment_hunt-v1.0/apartment_hunt-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/apartment_hunt-v1.0/apartment_hunt-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/apartment_hunt.md",
+"kind": "factory",
+"icon_url": "icons/apartment_hunt.svg"
+},
+{
+"id": "api_docs",
+"name": "Doc Writer",
+"tagline": "READMEs, API docs and changelogs that people read",
+"category": "Tools",
+"about": "Doc Writer turns code and notes into READMEs, API references, changelogs and onboarding guides with examples.",
+"colors": [
+"#455A64",
+"#FFB300",
+"#26A69A"
+],
+"icon": "note",
+"package": "com.mohithash.byok.apidocs",
+"tools": [
+{
+"emoji": "📄",
+"title": "Write a README",
+"subtitle": "From a description or code"
+},
+{
+"emoji": "🔌",
+"title": "API reference",
+"subtitle": "From a function or endpoint"
+},
+{
+"emoji": "🧾",
+"title": "Changelog entry",
+"subtitle": "From commits"
+},
+{
+"emoji": "🚀",
+"title": "Onboarding guide",
+"subtitle": "New dev, day one"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/api_docs-v1.0/api_docs-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/api_docs-v1.0/api_docs-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/api_docs.md",
+"kind": "factory",
+"icon_url": "icons/api_docs.svg"
+},
+{
+"id": "astro_night",
+"name": "Night Sky",
+"tagline": "What to see tonight and how to see it",
+"category": "Education",
+"about": "Night Sky plans stargazing sessions for your location and gear, explains what you're seeing and teaches astrophotography basics.",
+"colors": [
+"#1A237E",
+"#FFB300",
+"#26C6DA"
+],
+"icon": "moon",
+"package": "com.mohithash.byok.astronight",
+"tools": [
+{
+"emoji": "🌌",
+"title": "What's up tonight?",
+"subtitle": "Targets for your gear"
+},
+{
+"emoji": "🔭",
+"title": "What am I seeing?",
+"subtitle": "Describe or photo"
+},
+{
+"emoji": "📷",
+"title": "Astrophotography",
+"subtitle": "With your gear"
+},
+{
+"emoji": "📚",
+"title": "Learn the sky",
+"subtitle": "4-week plan"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/astro_night-v1.0/astro_night-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/astro_night-v1.0/astro_night-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/astro_night.md",
+"kind": "factory",
+"icon_url": "icons/astro_night.svg"
+},
+{
+"id": "baby_days",
+"name": "Baby Days",
+"tagline": "The first year, one calm answer at a time",
+"category": "Parenting",
+"about": "Baby Days answers new-parent questions with evidence-based, non-judgemental guidance: sleep, feeding, milestones, weaning and what to ask the doctor.",
+"colors": [
+"#F06292",
+"#4DB6AC",
+"#FFB74D"
+],
+"icon": "baby",
+"package": "com.mohithash.byok.babydays",
+"tools": [
+{
+"emoji": "💬",
+"title": "Ask anything",
+"subtitle": "Sleep, feeding, crying…"
+},
+{
+"emoji": "🌙",
+"title": "Sleep plan",
+"subtitle": "Gentle, age-appropriate"
+},
+{
+"emoji": "📈",
+"title": "Milestones",
+"subtitle": "What to expect this month"
+},
+{
+"emoji": "🩺",
+"title": "Doctor visit prep",
+"subtitle": "Questions and symptom log"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/baby_days-v1.0/baby_days-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/baby_days-v1.0/baby_days-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/baby_days.md",
+"kind": "factory",
+"icon_url": "icons/baby_days.svg"
+},
+{
+"id": "barista_home",
+"name": "Home Barista",
+"tagline": "Dial in café-quality coffee at home",
+"category": "Food & Drink",
+"about": "Home Barista helps you dial in espresso, pour-over, AeroPress and cold brew with exact ratios, then troubleshoots taste problems.",
+"colors": [
+"#4E342E",
+"#FF8A65",
+"#8D6E63"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.baristahome",
+"tools": [
+{
+"emoji": "☕",
+"title": "Dial-in recipe",
+"subtitle": "Ratio, time, grind for your method"
+},
+{
+"emoji": "🔧",
+"title": "Fix my cup",
+"subtitle": "Sour? Bitter? Weak?"
+},
+{
+"emoji": "🫘",
+"title": "Choose beans",
+"subtitle": "What to buy for how you brew"
+},
+{
+"emoji": "🥛",
+"title": "Milk & latte art",
+"subtitle": "Texture and pour basics"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/barista_home-v1.0/barista_home-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/barista_home-v1.0/barista_home-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/barista_home.md",
+"kind": "factory",
+"icon_url": "icons/barista_home.svg"
+},
+{
+"id": "bento_kids",
+"name": "Lunchbox Hero",
+"tagline": "School lunches kids actually eat",
+"category": "Food & Drink",
+"about": "Lunchbox Hero plans balanced, allergy-safe school lunches around what your child will actually eat, with a weekly rotation and a shopping list.",
+"colors": [
+"#F06292",
+"#4DB6AC",
+"#FFB74D"
+],
+"icon": "star",
+"package": "com.mohithash.byok.bentokids",
+"tools": [
+{
+"emoji": "🍱",
+"title": "This week's lunches",
+"subtitle": "5 boxes, balanced and finishable"
+},
+{
+"emoji": "🥦",
+"title": "Picky-eater plan",
+"subtitle": "Get a new food accepted"
+},
+{
+"emoji": "🔁",
+"title": "Allergy-safe swap",
+"subtitle": "Replace an ingredient safely"
+},
+{
+"emoji": "♻️",
+"title": "Leftover makeover",
+"subtitle": "Dinner → tomorrow's box"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/bento_kids-v1.0/bento_kids-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/bento_kids-v1.0/bento_kids-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/bento_kids.md",
+"kind": "factory",
+"icon_url": "icons/bento_kids.svg"
+},
+{
+"id": "bike_mechanic",
+"name": "Bike Fix",
+"tagline": "Maintenance, repairs and fit for any bike",
+"category": "Sports",
+"about": "Bike Fix diagnoses noises and problems, walks through repairs with tools, sets up bike fit, and plans seasonal maintenance.",
+"colors": [
+"#00838F",
+"#FF7043",
+"#263238"
+],
+"icon": "wrench",
+"package": "com.mohithash.byok.bikemechanic",
+"tools": [
+{
+"emoji": "🔊",
+"title": "What's that noise?",
+"subtitle": "Describe or photo"
+},
+{
+"emoji": "🔧",
+"title": "How do I…",
+"subtitle": "Any repair"
+},
+{
+"emoji": "📏",
+"title": "Bike fit basics",
+"subtitle": "Comfort and power"
+},
+{
+"emoji": "🗓️",
+"title": "Service schedule",
+"subtitle": "By distance and season"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/bike_mechanic-v1.0/bike_mechanic-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/bike_mechanic-v1.0/bike_mechanic-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/bike_mechanic.md",
+"kind": "factory",
+"icon_url": "icons/bike_mechanic.svg"
+},
+{
+"id": "board_game_night",
+"name": "Game Night",
+"tagline": "Pick, teach and host tabletop games",
+"category": "Games",
+"about": "Game Night picks games for your group, explains rules in 2 minutes, settles rule disputes and designs house variants.",
+"colors": [
+"#5E35B1",
+"#FFB300",
+"#26A69A"
+],
+"icon": "star",
+"package": "com.mohithash.byok.boardgamenight",
+"tools": [
+{
+"emoji": "🎲",
+"title": "What should we play?",
+"subtitle": "Tonight"
+},
+{
+"emoji": "📖",
+"title": "Teach it in 2 minutes",
+"subtitle": "Rules summary"
+},
+{
+"emoji": "⚖️",
+"title": "Settle a dispute",
+"subtitle": "What does the rule say?"
+},
+{
+"emoji": "🧪",
+"title": "House variant",
+"subtitle": "Make it fresh"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/board_game_night-v1.0/board_game_night-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/board_game_night-v1.0/board_game_night-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/board_game_night.md",
+"kind": "factory",
+"icon_url": "icons/board_game_night.svg"
+},
+{
+"id": "book_club",
+"name": "Book Companion",
+"tagline": "Read deeper, remember more, discuss better",
+"category": "Books & Reference",
+"about": "Book Companion builds discussion questions, summarises chapters without spoilers ahead, explains references, and recommends your next read.",
+"colors": [
+"#5D4037",
+"#FFB300",
+"#00897B"
+],
+"icon": "book",
+"package": "com.mohithash.byok.bookclub",
+"tools": [
+{
+"emoji": "📖",
+"title": "Recap so far",
+"subtitle": "Spoiler-safe"
+},
+{
+"emoji": "💬",
+"title": "Discussion questions",
+"subtitle": "For a club or yourself"
+},
+{
+"emoji": "🔎",
+"title": "Explain a reference",
+"subtitle": "Allusions, history, words"
+},
+{
+"emoji": "📚",
+"title": "What next?",
+"subtitle": "Recommendations"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/book_club-v1.0/book_club-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/book_club-v1.0/book_club-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/book_club.md",
+"kind": "factory",
+"icon_url": "icons/book_club.svg"
+},
+{
+"id": "brand_namer",
+"name": "Name Storm",
+"tagline": "Names, taglines and domains for anything",
+"category": "Business",
+"about": "Name Storm generates brand, product and project names with rationale, checks pronounceability and meaning across languages, and writes taglines.",
+"colors": [
+"#6A1B9A",
+"#FFB300",
+"#00BCD4"
+],
+"icon": "bulb",
+"package": "com.mohithash.byok.brandnamer",
+"tools": [
+{
+"emoji": "💡",
+"title": "Generate names",
+"subtitle": "50, sorted by style"
+},
+{
+"emoji": "🔍",
+"title": "Check a name",
+"subtitle": "Meaning, sayability, risks"
+},
+{
+"emoji": "✨",
+"title": "Taglines",
+"subtitle": "Short, sharp"
+},
+{
+"emoji": "🌐",
+"title": "Domains & handles",
+"subtitle": "Available-style ideas"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/brand_namer-v1.0/brand_namer-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/brand_namer-v1.0/brand_namer-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/brand_namer.md",
+"kind": "factory",
+"icon_url": "icons/brand_namer.svg"
+},
+{
+"id": "bread_baker",
+"name": "Bread Lab",
+"tagline": "Sourdough and bread, troubleshot",
+"category": "Food & Drink",
+"about": "Bread Lab builds bake schedules around your day, scales recipes by baker's percentages, diagnoses flat loaves from photos and adapts to your flour.",
+"colors": [
+"#8D6E63",
+"#FFB300",
+"#5D4037"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.breadbaker",
+"tools": [
+{
+"emoji": "⏰",
+"title": "Bake schedule",
+"subtitle": "Fit it around your day"
+},
+{
+"emoji": "⚖️",
+"title": "Scale a recipe",
+"subtitle": "Baker's percentages"
+},
+{
+"emoji": "📷",
+"title": "What went wrong?",
+"subtitle": "Photo of crumb/crust"
+},
+{
+"emoji": "🥖",
+"title": "Recipe for…",
+"subtitle": "Any bread"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/bread_baker-v1.0/bread_baker-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/bread_baker-v1.0/bread_baker-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/bread_baker.md",
+"kind": "factory",
+"icon_url": "icons/bread_baker.svg"
+},
+{
+"id": "budget_buddy",
+"name": "Budget Buddy",
+"tagline": "A monthly budget that fits your real life",
+"category": "Finance",
+"about": "Budget Buddy builds zero-based or 50/30/20 budgets from your income and bills, finds cuts you won't hate, and plans debt payoff.",
+"colors": [
+"#1565C0",
+"#FF8F00",
+"#2E7D32"
+],
+"icon": "coin",
+"package": "com.mohithash.byok.budgetbuddy",
+"tools": [
+{
+"emoji": "📊",
+"title": "Build my budget",
+"subtitle": "From bills to a plan"
+},
+{
+"emoji": "✂️",
+"title": "Find cuts",
+"subtitle": "Save without misery"
+},
+{
+"emoji": "🏔️",
+"title": "Debt payoff plan",
+"subtitle": "Snowball vs avalanche"
+},
+{
+"emoji": "🛍️",
+"title": "Can I afford it?",
+"subtitle": "Sanity-check a purchase"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/budget_buddy-v1.0/budget_buddy-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/budget_buddy-v1.0/budget_buddy-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/budget_buddy.md",
+"kind": "factory",
+"icon_url": "icons/budget_buddy.svg"
+},
+{
+"id": "car_buyer",
+"name": "Car Sense",
+"tagline": "Buy, sell and maintain a car without getting fleeced",
+"category": "Auto & Vehicles",
+"about": "Car Sense compares models for your needs, prepares inspection checklists and haggling scripts, decodes listings and plans maintenance.",
+"colors": [
+"#263238",
+"#FF7043",
+"#00ACC1"
+],
+"icon": "car",
+"package": "com.mohithash.byok.carbuyer",
+"tools": [
+{
+"emoji": "🚗",
+"title": "Shortlist models",
+"subtitle": "For your needs and budget"
+},
+{
+"emoji": "🔍",
+"title": "Inspect a used car",
+"subtitle": "Checklist + questions"
+},
+{
+"emoji": "📷",
+"title": "Decode a listing",
+"subtitle": "Photo or paste"
+},
+{
+"emoji": "🗓️",
+"title": "Maintenance plan",
+"subtitle": "By km and age"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/car_buyer-v1.0/car_buyer-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/car_buyer-v1.0/car_buyer-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/car_buyer.md",
+"kind": "factory",
+"icon_url": "icons/car_buyer.svg"
+},
+{
+"id": "career_pivot",
+"name": "Pivot Path",
+"tagline": "Change careers with a plan, not a leap",
+"category": "Business",
+"about": "Pivot Path maps your transferable skills to new roles, builds 90-day transition plans, writes your new narrative and finds the gaps to close.",
+"colors": [
+"#00695C",
+"#FF8F00",
+"#5E35B1"
+],
+"icon": "graph",
+"package": "com.mohithash.byok.careerpivot",
+"tools": [
+{
+"emoji": "🗺️",
+"title": "Map my options",
+"subtitle": "Where your skills transfer"
+},
+{
+"emoji": "📅",
+"title": "90-day plan",
+"subtitle": "Toward one role"
+},
+{
+"emoji": "🧵",
+"title": "My pivot story",
+"subtitle": "For LinkedIn and interviews"
+},
+{
+"emoji": "☕",
+"title": "Networking messages",
+"subtitle": "Coffee-chat asks that get replies"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/career_pivot-v1.0/career_pivot-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/career_pivot-v1.0/career_pivot-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/career_pivot.md",
+"kind": "factory",
+"icon_url": "icons/career_pivot.svg"
+},
+{
+"id": "cat_whisperer",
+"name": "Cat Sense",
+"tagline": "Understand and care for your cat",
+"category": "Lifestyle",
+"about": "Cat Sense decodes behaviour, plans enrichment and litter/feeding routines, and helps with introductions and stress.",
+"colors": [
+"#5E35B1",
+"#FF7043",
+"#26A69A"
+],
+"icon": "paw",
+"package": "com.mohithash.byok.catwhisperer",
+"tools": [
+{
+"emoji": "🐱",
+"title": "Why is my cat…",
+"subtitle": "Behaviour explained"
+},
+{
+"emoji": "🧶",
+"title": "Enrichment plan",
+"subtitle": "Indoor cat, rich life"
+},
+{
+"emoji": "🤝",
+"title": "Introduce a new pet",
+"subtitle": "Slow and safe"
+},
+{
+"emoji": "🩺",
+"title": "Vet visit prep",
+"subtitle": "Questions and symptoms"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/cat_whisperer-v1.0/cat_whisperer-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/cat_whisperer-v1.0/cat_whisperer-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/cat_whisperer.md",
+"kind": "factory",
+"icon_url": "icons/cat_whisperer.svg"
+},
+{
+"id": "chess_coach",
+"name": "Chess Coach",
+"tagline": "Openings, tactics and post-game reviews",
+"category": "Games",
+"about": "Chess Coach builds an opening repertoire for your level, drills tactics, reviews your games from PGN and explains plans in plain language.",
+"colors": [
+"#37474F",
+"#FFB300",
+"#8D6E63"
+],
+"icon": "star",
+"package": "com.mohithash.byok.chesscoach",
+"tools": [
+{
+"emoji": "📚",
+"title": "Build a repertoire",
+"subtitle": "For your level"
+},
+{
+"emoji": "🔍",
+"title": "Review my game",
+"subtitle": "Paste PGN or moves"
+},
+{
+"emoji": "⚔️",
+"title": "Tactics drill",
+"subtitle": "10 patterns"
+},
+{
+"emoji": "🧭",
+"title": "What's the plan?",
+"subtitle": "Describe a position"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/chess_coach-v1.0/chess_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/chess_coach-v1.0/chess_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/chess_coach.md",
+"kind": "factory",
+"icon_url": "icons/chess_coach.svg"
+},
+{
+"id": "city_break",
+"name": "City Break",
+"tagline": "48 hours in any city, done right",
+"category": "Travel & Local",
+"about": "City Break plans weekend itineraries grouped by neighbourhood, finds food worth the walk, and handles logistics from the airport to the last train.",
+"colors": [
+"#0277BD",
+"#FF8F00",
+"#2E7D32"
+],
+"icon": "pin",
+"package": "com.mohithash.byok.citybreak",
+"tools": [
+{
+"emoji": "🗺️",
+"title": "Plan 48 hours",
+"subtitle": "City + dates"
+},
+{
+"emoji": "🍽️",
+"title": "Where to eat",
+"subtitle": "Real, not touristy"
+},
+{
+"emoji": "🌧️",
+"title": "Rainy-day plan",
+"subtitle": "Indoors, still great"
+},
+{
+"emoji": "🗣️",
+"title": "Local basics",
+"subtitle": "Phrases, tipping, customs"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/city_break-v1.0/city_break-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/city_break-v1.0/city_break-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/city_break.md",
+"kind": "factory",
+"icon_url": "icons/city_break.svg"
+},
+{
+"id": "closet_stylist",
+"name": "Closet Stylist",
+"tagline": "Outfits from the clothes you already own",
+"category": "Lifestyle",
+"about": "Closet Stylist builds outfits from your wardrobe photos, plans capsule wardrobes, and tells you what to pack or buy next.",
+"colors": [
+"#AD1457",
+"#00897B",
+"#FFB300"
+],
+"icon": "bag",
+"package": "com.mohithash.byok.closetstylist",
+"tools": [
+{
+"emoji": "👗",
+"title": "Dress me",
+"subtitle": "Occasion + weather → outfits"
+},
+{
+"emoji": "📷",
+"title": "Audit my closet",
+"subtitle": "Photo → keep/alter/donate"
+},
+{
+"emoji": "🧳",
+"title": "Capsule wardrobe",
+"subtitle": "30 pieces, 100 outfits"
+},
+{
+"emoji": "✈️",
+"title": "Pack for a trip",
+"subtitle": "Nothing unworn"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/closet_stylist-v1.0/closet_stylist-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/closet_stylist-v1.0/closet_stylist-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/closet_stylist.md",
+"kind": "factory",
+"icon_url": "icons/closet_stylist.svg"
+},
+{
+"id": "cocktail_bar",
+"name": "Home Bar",
+"tagline": "Cocktails from what's on your shelf",
+"category": "Food & Drink",
+"about": "Home Bar suggests cocktails from the bottles you own, scales recipes for parties, builds a starter bar and creates mocktails.",
+"colors": [
+"#37474F",
+"#FFB300",
+"#E91E63"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.cocktailbar",
+"tools": [
+{
+"emoji": "🍸",
+"title": "What can I make?",
+"subtitle": "From your shelf"
+},
+{
+"emoji": "🥳",
+"title": "Batch for a party",
+"subtitle": "Scale it"
+},
+{
+"emoji": "🧰",
+"title": "Build a starter bar",
+"subtitle": "For your taste"
+},
+{
+"emoji": "🍹",
+"title": "Mocktails",
+"subtitle": "Just as good"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/cocktail_bar-v1.0/cocktail_bar-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/cocktail_bar-v1.0/cocktail_bar-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/cocktail_bar.md",
+"kind": "factory",
+"icon_url": "icons/cocktail_bar.svg"
+},
+{
+"id": "code_tutor",
+"name": "Code Tutor",
+"tagline": "Learn to code with a patient mentor",
+"category": "Education",
+"about": "Code Tutor explains concepts, reviews your code, debugs errors from screenshots and sets daily practice — in Python, JavaScript, Kotlin and more.",
+"colors": [
+"#37474F",
+"#00E676",
+"#2979FF"
+],
+"icon": "gear",
+"package": "com.mohithash.byok.codetutor",
+"tools": [
+{
+"emoji": "💡",
+"title": "Explain a concept",
+"subtitle": "With a tiny example"
+},
+{
+"emoji": "🐞",
+"title": "Debug this",
+"subtitle": "Paste code or a screenshot"
+},
+{
+"emoji": "🔍",
+"title": "Review my code",
+"subtitle": "Honest, kind, specific"
+},
+{
+"emoji": "📅",
+"title": "Daily challenge",
+"subtitle": "15 minutes"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/code_tutor-v1.0/code_tutor-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/code_tutor-v1.0/code_tutor-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/code_tutor.md",
+"kind": "factory",
+"icon_url": "icons/code_tutor.svg"
+},
+{
+"id": "crypto_clarity",
+"name": "Crypto Clarity",
+"tagline": "Understand crypto without the hype",
+"category": "Finance",
+"about": "Crypto Clarity explains coins, protocols and wallets in plain language, decodes whitepapers, walks through security setups and flags scam patterns.",
+"colors": [
+"#F7931A",
+"#263238",
+"#26A69A"
+],
+"icon": "coin",
+"package": "com.mohithash.byok.cryptoclarity",
+"tools": [
+{
+"emoji": "💡",
+"title": "Explain",
+"subtitle": "Any concept or coin"
+},
+{
+"emoji": "🔐",
+"title": "Secure my setup",
+"subtitle": "Wallets, keys, 2FA"
+},
+{
+"emoji": "🚩",
+"title": "Is this a scam?",
+"subtitle": "Paste the pitch"
+},
+{
+"emoji": "📄",
+"title": "Decode a project",
+"subtitle": "Paste a summary or link text"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/crypto_clarity-v1.0/crypto_clarity-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/crypto_clarity-v1.0/crypto_clarity-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/crypto_clarity.md",
+"kind": "factory",
+"icon_url": "icons/crypto_clarity.svg"
+},
+{
+"id": "customer_reply",
+"name": "Support Scribe",
+"tagline": "Customer replies that de-escalate and delight",
+"category": "Business",
+"about": "Support Scribe drafts empathetic, on-policy replies to customer messages, handles refunds and complaints, and writes macros.",
+"colors": [
+"#00695C",
+"#FF7043",
+"#7E57C2"
+],
+"icon": "chat",
+"package": "com.mohithash.byok.customerreply",
+"tools": [
+{
+"emoji": "💬",
+"title": "Reply to a customer",
+"subtitle": "Paste their message"
+},
+{
+"emoji": "🔥",
+"title": "De-escalate",
+"subtitle": "Angry customer"
+},
+{
+"emoji": "📚",
+"title": "Write macros",
+"subtitle": "For common cases"
+},
+{
+"emoji": "⭐",
+"title": "Respond to a review",
+"subtitle": "Public, gracious"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/customer_reply-v1.0/customer_reply-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/customer_reply-v1.0/customer_reply-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/customer_reply.md",
+"kind": "factory",
+"icon_url": "icons/customer_reply.svg"
+},
+{
+"id": "dating_wing",
+"name": "Wingmate",
+"tagline": "Profiles, openers and date ideas — genuinely you",
+"category": "Dating",
+"about": "Wingmate polishes your dating profile, writes openers based on their profile, plans dates and helps you communicate honestly.",
+"colors": [
+"#D81B60",
+"#FF8F00",
+"#26A69A"
+],
+"icon": "heart",
+"package": "com.mohithash.byok.datingwing",
+"tools": [
+{
+"emoji": "✨",
+"title": "Polish my profile",
+"subtitle": "Bio + prompts"
+},
+{
+"emoji": "💬",
+"title": "Write an opener",
+"subtitle": "From their profile"
+},
+{
+"emoji": "🍷",
+"title": "Plan a date",
+"subtitle": "First, second, or the big one"
+},
+{
+"emoji": "📱",
+"title": "Help me reply",
+"subtitle": "Awkward text situations"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/dating_wing-v1.0/dating_wing-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/dating_wing-v1.0/dating_wing-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/dating_wing.md",
+"kind": "factory",
+"icon_url": "icons/dating_wing.svg"
+},
+{
+"id": "declutter_coach",
+"name": "Declutter Coach",
+"tagline": "A calmer home, one drawer at a time",
+"category": "House & Home",
+"about": "Declutter Coach plans room-by-room sessions, decides what to keep from a photo, and designs storage that actually gets used.",
+"colors": [
+"#00897B",
+"#FFB74D",
+"#7E57C2"
+],
+"icon": "home",
+"package": "com.mohithash.byok.decluttercoach",
+"tools": [
+{
+"emoji": "⏱️",
+"title": "Plan a session",
+"subtitle": "Room + minutes → plan"
+},
+{
+"emoji": "📷",
+"title": "Sort this photo",
+"subtitle": "What to keep"
+},
+{
+"emoji": "🗄️",
+"title": "Storage plan",
+"subtitle": "Make it easy to keep tidy"
+},
+{
+"emoji": "📅",
+"title": "30-day plan",
+"subtitle": "Whole home"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/declutter_coach-v1.0/declutter_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/declutter_coach-v1.0/declutter_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/declutter_coach.md",
+"kind": "factory",
+"icon_url": "icons/declutter_coach.svg"
+},
+{
+"id": "diy_crafts",
+"name": "Craft Corner",
+"tagline": "Projects, patterns and fixes for makers",
+"category": "Hobbies",
+"about": "Craft Corner plans knitting, sewing, woodworking and paper projects to your skill, converts patterns and troubleshoots mistakes.",
+"colors": [
+"#8E24AA",
+"#FF8F00",
+"#26A69A"
+],
+"icon": "wrench",
+"package": "com.mohithash.byok.diycrafts",
+"tools": [
+{
+"emoji": "🧶",
+"title": "Suggest a project",
+"subtitle": "Time + materials"
+},
+{
+"emoji": "📐",
+"title": "Pattern maths",
+"subtitle": "Resize, gauge, yardage"
+},
+{
+"emoji": "🩹",
+"title": "Fix a mistake",
+"subtitle": "Photo + description"
+},
+{
+"emoji": "🎁",
+"title": "Handmade gift ideas",
+"subtitle": "For someone"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/diy_crafts-v1.0/diy_crafts-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/diy_crafts-v1.0/diy_crafts-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/diy_crafts.md",
+"kind": "factory",
+"icon_url": "icons/diy_crafts.svg"
+},
+{
+"id": "dog_trainer",
+"name": "Good Dog",
+"tagline": "Training plans and behaviour fixes for your dog",
+"category": "Lifestyle",
+"about": "Good Dog builds positive-reinforcement training plans, decodes behaviour problems, and helps with puppies, recall and reactivity.",
+"colors": [
+"#8D6E63",
+"#FF8F00",
+"#26A69A"
+],
+"icon": "paw",
+"package": "com.mohithash.byok.dogtrainer",
+"tools": [
+{
+"emoji": "🎓",
+"title": "Teach a skill",
+"subtitle": "A week-by-week plan"
+},
+{
+"emoji": "🐾",
+"title": "Fix a behaviour",
+"subtitle": "Understand and change it"
+},
+{
+"emoji": "🐶",
+"title": "Puppy day plan",
+"subtitle": "Sleep, toilet, play, training"
+},
+{
+"emoji": "🧩",
+"title": "Enrichment ideas",
+"subtitle": "Tire the brain"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/dog_trainer-v1.0/dog_trainer-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/dog_trainer-v1.0/dog_trainer-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/dog_trainer.md",
+"kind": "factory",
+"icon_url": "icons/dog_trainer.svg"
+},
+{
+"id": "dream_journal",
+"name": "Dream Decoder",
+"tagline": "Record dreams, notice patterns, sleep curious",
+"category": "Lifestyle",
+"about": "Dream Decoder helps you capture dreams fast, explores possible meanings from several traditions without claiming certainty, and tracks recurring themes.",
+"colors": [
+"#4527A0",
+"#FFB300",
+"#26C6DA"
+],
+"icon": "moon",
+"package": "com.mohithash.byok.dreamjournal",
+"tools": [
+{
+"emoji": "🌙",
+"title": "Decode a dream",
+"subtitle": "Tell it as you remember"
+},
+{
+"emoji": "✍️",
+"title": "Capture prompts",
+"subtitle": "Before it fades"
+},
+{
+"emoji": "🔁",
+"title": "Find patterns",
+"subtitle": "Paste several dreams"
+},
+{
+"emoji": "✨",
+"title": "Lucid dreaming",
+"subtitle": "Beginner's plan"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/dream_journal-v1.0/dream_journal-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/dream_journal-v1.0/dream_journal-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/dream_journal.md",
+"kind": "factory",
+"icon_url": "icons/dream_journal.svg"
+},
+{
+"id": "eco_home",
+"name": "Green Home",
+"tagline": "Cut bills and carbon, room by room",
+"category": "House & Home",
+"about": "Green Home audits your energy use, ranks upgrades by payback, decodes bills and plans a low-waste kitchen.",
+"colors": [
+"#2E7D32",
+"#FFB300",
+"#0288D1"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.ecohome",
+"tools": [
+{
+"emoji": "🔎",
+"title": "Quick audit",
+"subtitle": "Where the energy goes"
+},
+{
+"emoji": "📷",
+"title": "Decode my bill",
+"subtitle": "Photo of a bill"
+},
+{
+"emoji": "💡",
+"title": "Is it worth it?",
+"subtitle": "Any upgrade"
+},
+{
+"emoji": "♻️",
+"title": "Low-waste kitchen",
+"subtitle": "Practical, not preachy"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/eco_home-v1.0/eco_home-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/eco_home-v1.0/eco_home-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/eco_home.md",
+"kind": "factory",
+"icon_url": "icons/eco_home.svg"
+},
+{
+"id": "elder_care",
+"name": "Care Compass",
+"tagline": "Support for those caring for ageing parents",
+"category": "Medical",
+"about": "Care Compass helps family caregivers organise medications, prepare for appointments, plan safe homes and navigate difficult conversations.",
+"colors": [
+"#5E35B1",
+"#FFB300",
+"#26A69A"
+],
+"icon": "heart",
+"package": "com.mohithash.byok.eldercare",
+"tools": [
+{
+"emoji": "💊",
+"title": "Medication schedule",
+"subtitle": "Clear and printable"
+},
+{
+"emoji": "🏠",
+"title": "Home safety",
+"subtitle": "Room by room"
+},
+{
+"emoji": "💬",
+"title": "Difficult conversation",
+"subtitle": "Driving, moving, help"
+},
+{
+"emoji": "💛",
+"title": "Caregiver check-in",
+"subtitle": "You matter too"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/elder_care-v1.0/elder_care-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/elder_care-v1.0/elder_care-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/elder_care.md",
+"kind": "factory",
+"icon_url": "icons/elder_care.svg"
+},
+{
+"id": "email_polish",
+"name": "Inbox Pilot",
+"tagline": "Emails written, summarised and answered in seconds",
+"category": "Communication",
+"about": "Inbox Pilot drafts replies in your tone, summarises long threads, writes difficult emails (no, sorry, chase, escalate) and turns bullet points into polished messages.",
+"colors": [
+"#00838F",
+"#F4511E",
+"#5E35B1"
+],
+"icon": "chat",
+"package": "com.mohithash.byok.emailpolish",
+"tools": [
+{
+"emoji": "↩️",
+"title": "Reply to this",
+"subtitle": "Paste the email"
+},
+{
+"emoji": "🧾",
+"title": "Summarise a thread",
+"subtitle": "Long → clear"
+},
+{
+"emoji": "🧊",
+"title": "The hard email",
+"subtitle": "No, sorry, chase, escalate"
+},
+{
+"emoji": "🧱",
+"title": "Bullets → email",
+"subtitle": "Rough notes to polished"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/email_polish-v1.0/email_polish-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/email_polish-v1.0/email_polish-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/email_polish.md",
+"kind": "factory",
+"icon_url": "icons/email_polish.svg"
+},
+{
+"id": "emergency_ready",
+"name": "Ready Kit",
+"tagline": "Prepare your household for emergencies",
+"category": "Lifestyle",
+"about": "Ready Kit builds go-bags and home kits for your risks, writes family emergency plans and checklists for storms, outages and evacuations.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#37474F"
+],
+"icon": "shield",
+"package": "com.mohithash.byok.emergencyready",
+"tools": [
+{
+"emoji": "🎒",
+"title": "Build my kit",
+"subtitle": "Home or go-bag"
+},
+{
+"emoji": "📋",
+"title": "Family plan",
+"subtitle": "Who does what"
+},
+{
+"emoji": "⚠️",
+"title": "Something's coming",
+"subtitle": "Storm, outage, heatwave"
+},
+{
+"emoji": "🔄",
+"title": "Afterwards",
+"subtitle": "Recovery steps"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/emergency_ready-v1.0/emergency_ready-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/emergency_ready-v1.0/emergency_ready-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/emergency_ready.md",
+"kind": "factory",
+"icon_url": "icons/emergency_ready.svg"
+},
+{
+"id": "essay_coach",
+"name": "Essay Coach",
+"tagline": "Outlines, feedback and thesis polish",
+"category": "Education",
+"about": "Essay Coach turns prompts into outlines, gives rubric-based feedback on drafts, sharpens thesis statements and fixes citations — without writing it for you.",
+"colors": [
+"#6A1B9A",
+"#FFB300",
+"#00897B"
+],
+"icon": "note",
+"package": "com.mohithash.byok.essaycoach",
+"tools": [
+{
+"emoji": "🗂️",
+"title": "Outline from a prompt",
+"subtitle": "Structure before words"
+},
+{
+"emoji": "📝",
+"title": "Feedback on my draft",
+"subtitle": "Paste a draft"
+},
+{
+"emoji": "🎯",
+"title": "Sharpen my thesis",
+"subtitle": "From vague to arguable"
+},
+{
+"emoji": "📚",
+"title": "Fix citations",
+"subtitle": "Format references"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/essay_coach-v1.0/essay_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/essay_coach-v1.0/essay_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/essay_coach.md",
+"kind": "factory",
+"icon_url": "icons/essay_coach.svg"
+},
+{
+"id": "etsy_seller",
+"name": "Maker Shop",
+"tagline": "Sell your handmade goods online",
+"category": "Business",
+"about": "Maker Shop writes listings with SEO-friendly titles, prices your products properly, plans photos and handles customer messages.",
+"colors": [
+"#F4511E",
+"#26A69A",
+"#FFB300"
+],
+"icon": "bag",
+"package": "com.mohithash.byok.etsyseller",
+"tools": [
+{
+"emoji": "🏷️",
+"title": "Write a listing",
+"subtitle": "Title, description, tags"
+},
+{
+"emoji": "💲",
+"title": "Price a product",
+"subtitle": "Materials, time, fees"
+},
+{
+"emoji": "📷",
+"title": "Photo plan",
+"subtitle": "Phone-friendly"
+},
+{
+"emoji": "💬",
+"title": "Customer message",
+"subtitle": "Reply well"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/etsy_seller-v1.0/etsy_seller-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/etsy_seller-v1.0/etsy_seller-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/etsy_seller.md",
+"kind": "factory",
+"icon_url": "icons/etsy_seller.svg"
+},
+{
+"id": "event_host",
+"name": "Host Mode",
+"tagline": "Parties and dinners without the panic",
+"category": "Lifestyle",
+"about": "Host Mode plans dinner parties, birthdays and gatherings: menus, timelines, shopping lists, playlists and the awkward-moment scripts.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#00897B"
+],
+"icon": "gift",
+"package": "com.mohithash.byok.eventhost",
+"tools": [
+{
+"emoji": "🍽️",
+"title": "Plan a dinner",
+"subtitle": "Menu + timeline"
+},
+{
+"emoji": "🎉",
+"title": "Party planner",
+"subtitle": "Birthday, housewarming, anything"
+},
+{
+"emoji": "🎲",
+"title": "Games & icebreakers",
+"subtitle": "For this crowd"
+},
+{
+"emoji": "🥂",
+"title": "Write a toast",
+"subtitle": "Short, warm, funny"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/event_host-v1.0/event_host-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/event_host-v1.0/event_host-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/event_host.md",
+"kind": "factory",
+"icon_url": "icons/event_host.svg"
+},
+{
+"id": "excel_wizard",
+"name": "Sheet Wizard",
+"tagline": "Spreadsheet formulas explained and written",
+"category": "Productivity",
+"about": "Sheet Wizard writes Excel/Google Sheets formulas from plain English, explains scary ones, fixes errors and designs sheet layouts.",
+"colors": [
+"#1B5E20",
+"#FFB300",
+"#0288D1"
+],
+"icon": "graph",
+"package": "com.mohithash.byok.excelwizard",
+"tools": [
+{
+"emoji": "🧮",
+"title": "Write a formula",
+"subtitle": "Describe what you need"
+},
+{
+"emoji": "🔍",
+"title": "Explain a formula",
+"subtitle": "Paste it"
+},
+{
+"emoji": "🩹",
+"title": "Fix an error",
+"subtitle": "#REF!, #N/A, wrong result"
+},
+{
+"emoji": "📐",
+"title": "Design a sheet",
+"subtitle": "Layout for a task"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/excel_wizard-v1.0/excel_wizard-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/excel_wizard-v1.0/excel_wizard-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/excel_wizard.md",
+"kind": "factory",
+"icon_url": "icons/excel_wizard.svg"
+},
+{
+"id": "first_aid_ref",
+"name": "First Aid Now",
+"tagline": "Calm, step-by-step first aid guidance",
+"category": "Medical",
+"about": "First Aid Now gives clear step-by-step first aid for common situations, builds home and travel kits and teaches you before you need it.",
+"colors": [
+"#C62828",
+"#FFFFFF",
+"#1565C0"
+],
+"icon": "shield",
+"package": "com.mohithash.byok.firstaidref",
+"tools": [
+{
+"emoji": "🚨",
+"title": "What do I do?",
+"subtitle": "Describe the situation"
+},
+{
+"emoji": "🧰",
+"title": "Build a kit",
+"subtitle": "Home, car, travel"
+},
+{
+"emoji": "📚",
+"title": "Learn a skill",
+"subtitle": "Before you need it"
+},
+{
+"emoji": "🎭",
+"title": "Practice scenario",
+"subtitle": "Test yourself"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/first_aid_ref-v1.0/first_aid_ref-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/first_aid_ref-v1.0/first_aid_ref-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/first_aid_ref.md",
+"kind": "factory",
+"icon_url": "icons/first_aid_ref.svg"
+},
+{
+"id": "focus_sprint",
+"name": "Focus Sprint",
+"tagline": "Beat procrastination one sprint at a time",
+"category": "Productivity",
+"about": "Focus Sprint breaks scary tasks into 25-minute sprints, writes your first tiny step, and runs a quick review so tomorrow starts easier.",
+"colors": [
+"#3949AB",
+"#FF6F00",
+"#00897B"
+],
+"icon": "clock",
+"package": "com.mohithash.byok.focussprint",
+"tools": [
+{
+"emoji": "🏃",
+"title": "Plan sprints",
+"subtitle": "One scary task → sprints"
+},
+{
+"emoji": "🧱",
+"title": "I'm stuck",
+"subtitle": "Get unstuck now"
+},
+{
+"emoji": "🗓️",
+"title": "Plan my day",
+"subtitle": "Tasks → a realistic schedule"
+},
+{
+"emoji": "🌙",
+"title": "End-of-day review",
+"subtitle": "2 minutes, honest"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/focus_sprint-v1.0/focus_sprint-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/focus_sprint-v1.0/focus_sprint-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/focus_sprint.md",
+"kind": "factory",
+"icon_url": "icons/focus_sprint.svg"
+},
+{
+"id": "garden_planner",
+"name": "Garden Planner",
+"tagline": "What to sow, plant and harvest this month",
+"category": "House & Home",
+"about": "Garden Planner builds sowing calendars for your climate, designs beds and balconies, and troubleshoots pests organically.",
+"colors": [
+"#33691E",
+"#FF8F00",
+"#0288D1"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.gardenplanner",
+"tools": [
+{
+"emoji": "📅",
+"title": "This month",
+"subtitle": "Sow, plant, harvest"
+},
+{
+"emoji": "📐",
+"title": "Design my space",
+"subtitle": "Layout for what you want to grow"
+},
+{
+"emoji": "🐛",
+"title": "Pest or disease?",
+"subtitle": "Photo → organic fix"
+},
+{
+"emoji": "🌱",
+"title": "Seed to harvest",
+"subtitle": "One crop, full guide"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/garden_planner-v1.0/garden_planner-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/garden_planner-v1.0/garden_planner-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/garden_planner.md",
+"kind": "factory",
+"icon_url": "icons/garden_planner.svg"
+},
+{
+"id": "gift_genius",
+"name": "Gift Genius",
+"tagline": "The right gift, every time",
+"category": "Shopping",
+"about": "Gift Genius finds thoughtful gifts for anyone from a few details, writes cards, and plans experiences instead of stuff.",
+"colors": [
+"#AD1457",
+"#FFB300",
+"#00897B"
+],
+"icon": "gift",
+"package": "com.mohithash.byok.giftgenius",
+"tools": [
+{
+"emoji": "🎁",
+"title": "Gift ideas",
+"subtitle": "Person + budget → ideas"
+},
+{
+"emoji": "💌",
+"title": "Write the card",
+"subtitle": "Words that land"
+},
+{
+"emoji": "🎈",
+"title": "Plan an experience",
+"subtitle": "Memories over objects"
+},
+{
+"emoji": "👥",
+"title": "Group gift",
+"subtitle": "Organise everyone"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/gift_genius-v1.0/gift_genius-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/gift_genius-v1.0/gift_genius-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/gift_genius.md",
+"kind": "factory",
+"icon_url": "icons/gift_genius.svg"
+},
+{
+"id": "git_guide",
+"name": "Git Rescue",
+"tagline": "Undo, merge, rebase — without fear",
+"category": "Tools",
+"about": "Git Rescue explains what happened, gives exact commands to fix it, writes commit messages and PR descriptions, and teaches workflows.",
+"colors": [
+"#F05032",
+"#263238",
+"#00ACC1"
+],
+"icon": "wrench",
+"package": "com.mohithash.byok.gitguide",
+"tools": [
+{
+"emoji": "🆘",
+"title": "Fix my mess",
+"subtitle": "Describe or paste the error"
+},
+{
+"emoji": "📝",
+"title": "Commit message",
+"subtitle": "From a diff or description"
+},
+{
+"emoji": "🔀",
+"title": "PR description",
+"subtitle": "Reviewers will thank you"
+},
+{
+"emoji": "🔍",
+"title": "Explain a command",
+"subtitle": "What does this do?"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/git_guide-v1.0/git_guide-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/git_guide-v1.0/git_guide-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/git_guide.md",
+"kind": "factory",
+"icon_url": "icons/git_guide.svg"
+},
+{
+"id": "grief_gentle",
+"name": "Gentle Days",
+"tagline": "Support through grief, one day at a time",
+"category": "Health & Fitness",
+"about": "Gentle Days offers grief-informed support: what's normal, small daily anchors, words for hard moments, and ways to remember someone.",
+"colors": [
+"#5C6BC0",
+"#FFB74D",
+"#80CBC4"
+],
+"icon": "heart",
+"package": "com.mohithash.byok.griefgentle",
+"tools": [
+{
+"emoji": "💬",
+"title": "Is this normal?",
+"subtitle": "What you're feeling"
+},
+{
+"emoji": "⚓",
+"title": "Today's anchors",
+"subtitle": "Three small things"
+},
+{
+"emoji": "✍️",
+"title": "Words for a moment",
+"subtitle": "Cards, replies, eulogies"
+},
+{
+"emoji": "🕯️",
+"title": "Ways to remember",
+"subtitle": "Rituals and projects"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/grief_gentle-v1.0/grief_gentle-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/grief_gentle-v1.0/grief_gentle-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/grief_gentle.md",
+"kind": "factory",
+"icon_url": "icons/grief_gentle.svg"
+},
+{
+"id": "gut_guide",
+"name": "Gut Guide",
+"tagline": "Food & symptom diary that finds your patterns",
+"category": "Health & Fitness",
+"about": "Gut Guide helps people with IBS, reflux or food sensitivities log meals and symptoms, spot likely triggers, and plan low-FODMAP or elimination phases.",
+"colors": [
+"#2E7D32",
+"#FF7043",
+"#0288D1"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.gutguide",
+"tools": [
+{
+"emoji": "🔎",
+"title": "Analyse my diary",
+"subtitle": "Paste days of meals + symptoms"
+},
+{
+"emoji": "🥗",
+"title": "Low-FODMAP day",
+"subtitle": "Meals that are gentle"
+},
+{
+"emoji": "📷",
+"title": "Restaurant scan",
+"subtitle": "Photo of a menu → safe picks"
+},
+{
+"emoji": "🩹",
+"title": "Flare-up plan",
+"subtitle": "What to do in the next 48h"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/gut_guide-v1.0/gut_guide-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/gut_guide-v1.0/gut_guide-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/gut_guide.md",
+"kind": "factory",
+"icon_url": "icons/gut_guide.svg"
+},
+{
+"id": "habit_architect",
+"name": "Habit Architect",
+"tagline": "Design habits that survive bad weeks",
+"category": "Productivity",
+"about": "Habit Architect designs tiny habits with cues and rewards, stacks them onto routines you already have, and troubleshoots when you fall off.",
+"colors": [
+"#00897B",
+"#FF7043",
+"#5C6BC0"
+],
+"icon": "gear",
+"package": "com.mohithash.byok.habitarchitect",
+"tools": [
+{
+"emoji": "🧩",
+"title": "Design a habit",
+"subtitle": "From wish to recipe"
+},
+{
+"emoji": "🌅",
+"title": "Stack my morning",
+"subtitle": "Fit 3 habits into it"
+},
+{
+"emoji": "🔄",
+"title": "I fell off",
+"subtitle": "Get back without guilt"
+},
+{
+"emoji": "✅",
+"title": "Weekly tracker",
+"subtitle": "Printable checklist"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/habit_architect-v1.0/habit_architect-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/habit_architect-v1.0/habit_architect-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/habit_architect.md",
+"kind": "factory",
+"icon_url": "icons/habit_architect.svg"
+},
+{
+"id": "hair_care",
+"name": "Hair Plan",
+"tagline": "Routines for your curl, texture and goals",
+"category": "Beauty",
+"about": "Hair Plan builds wash-day routines, decodes product labels, plans colour and cuts, and tackles frizz, damage and growth.",
+"colors": [
+"#6D4C41",
+"#FF8F00",
+"#26A69A"
+],
+"icon": "sun",
+"package": "com.mohithash.byok.haircare",
+"tools": [
+{
+"emoji": "🚿",
+"title": "Wash-day routine",
+"subtitle": "Step by step"
+},
+{
+"emoji": "📷",
+"title": "Decode a label",
+"subtitle": "Photo"
+},
+{
+"emoji": "✂️",
+"title": "Plan a colour or cut",
+"subtitle": "Before the salon"
+},
+{
+"emoji": "🩹",
+"title": "Fix a problem",
+"subtitle": "Frizz, breakage, dryness"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/hair_care-v1.0/hair_care-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/hair_care-v1.0/hair_care-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/hair_care.md",
+"kind": "factory",
+"icon_url": "icons/hair_care.svg"
+},
+{
+"id": "history_time",
+"name": "Time Machine",
+"tagline": "History explained like a great documentary",
+"category": "Education",
+"about": "Time Machine explains any period, event or person with context, timelines, primary-source flavour and 'what if' debates.",
+"colors": [
+"#795548",
+"#FFB300",
+"#00838F"
+],
+"icon": "clock",
+"package": "com.mohithash.byok.historytime",
+"tools": [
+{
+"emoji": "🏛️",
+"title": "Explain an event",
+"subtitle": "Causes, course, consequences"
+},
+{
+"emoji": "👤",
+"title": "A life in brief",
+"subtitle": "Any historical figure"
+},
+{
+"emoji": "⚖️",
+"title": "Compare",
+"subtitle": "Two things side by side"
+},
+{
+"emoji": "🤔",
+"title": "Debate a 'what if'",
+"subtitle": "Counterfactual, carefully"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/history_time-v1.0/history_time-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/history_time-v1.0/history_time-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/history_time.md",
+"kind": "factory",
+"icon_url": "icons/history_time.svg"
+},
+{
+"id": "home_fixit",
+"name": "Fix-It Guide",
+"tagline": "DIY repairs, explained step by step",
+"category": "House & Home",
+"about": "Fix-It Guide diagnoses household problems from a photo, walks you through repairs with tools and safety, and tells you when to call a pro.",
+"colors": [
+"#EF6C00",
+"#37474F",
+"#00838F"
+],
+"icon": "wrench",
+"package": "com.mohithash.byok.homefixit",
+"tools": [
+{
+"emoji": "📷",
+"title": "What's this problem?",
+"subtitle": "Photo → diagnosis"
+},
+{
+"emoji": "🔧",
+"title": "How do I…",
+"subtitle": "Any repair"
+},
+{
+"emoji": "☎️",
+"title": "Should I call someone?",
+"subtitle": "And what to ask"
+},
+{
+"emoji": "🗓️",
+"title": "Seasonal checklist",
+"subtitle": "Prevent expensive surprises"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/home_fixit-v1.0/home_fixit-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/home_fixit-v1.0/home_fixit-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/home_fixit.md",
+"kind": "factory",
+"icon_url": "icons/home_fixit.svg"
+},
+{
+"id": "hydrate_hub",
+"name": "Hydrate Hub",
+"tagline": "Drink right for your body, sport and weather",
+"category": "Health & Fitness",
+"about": "Hydrate Hub calculates daily fluid and electrolyte needs, builds race-day hydration plans, and decodes sports-drink labels.",
+"colors": [
+"#0277BD",
+"#00BFA5",
+"#FFB300"
+],
+"icon": "drop",
+"package": "com.mohithash.byok.hydratehub",
+"tools": [
+{
+"emoji": "💧",
+"title": "My daily target",
+"subtitle": "Fluids + when"
+},
+{
+"emoji": "🏁",
+"title": "Race-day plan",
+"subtitle": "Marathon, cycle, hike, match"
+},
+{
+"emoji": "🧪",
+"title": "DIY electrolyte drink",
+"subtitle": "Cheap and tuned"
+},
+{
+"emoji": "📷",
+"title": "Decode a drink label",
+"subtitle": "Photo → is it worth it"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/hydrate_hub-v1.0/hydrate_hub-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/hydrate_hub-v1.0/hydrate_hub-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/hydrate_hub.md",
+"kind": "factory",
+"icon_url": "icons/hydrate_hub.svg"
+},
+{
+"id": "intermittent_fast",
+"name": "Fast Track",
+"tagline": "Intermittent fasting, made sustainable",
+"category": "Health & Fitness",
+"about": "Fast Track designs fasting schedules around your life, plans what to eat in your window, handles hunger and social events, and reviews your week.",
+"colors": [
+"#00838F",
+"#FFB300",
+"#5E35B1"
+],
+"icon": "clock",
+"package": "com.mohithash.byok.intermittentfast",
+"tools": [
+{
+"emoji": "⏰",
+"title": "My schedule",
+"subtitle": "Window + timing"
+},
+{
+"emoji": "🍽️",
+"title": "What to eat",
+"subtitle": "In the window"
+},
+{
+"emoji": "😖",
+"title": "I'm hungry",
+"subtitle": "Get through it"
+},
+{
+"emoji": "📓",
+"title": "Weekly review",
+"subtitle": "Paste your log"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/intermittent_fast-v1.0/intermittent_fast-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/intermittent_fast-v1.0/intermittent_fast-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/intermittent_fast.md",
+"kind": "factory",
+"icon_url": "icons/intermittent_fast.svg"
+},
+{
+"id": "interview_kids",
+"name": "Story Keeper",
+"tagline": "Capture your family's stories before they're gone",
+"category": "Lifestyle",
+"about": "Story Keeper prepares interview questions for grandparents and relatives, turns rambling recordings into polished stories and builds a family timeline.",
+"colors": [
+"#8D6E63",
+"#FFB300",
+"#00897B"
+],
+"icon": "mic",
+"package": "com.mohithash.byok.interviewkids",
+"tools": [
+{
+"emoji": "🎙️",
+"title": "Interview questions",
+"subtitle": "For one session"
+},
+{
+"emoji": "📖",
+"title": "Turn notes into a story",
+"subtitle": "Paste transcript or notes"
+},
+{
+"emoji": "🗓️",
+"title": "Family timeline",
+"subtitle": "From what you know"
+},
+{
+"emoji": "📚",
+"title": "Plan a memory book",
+"subtitle": "Chapters and photos"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/interview_kids-v1.0/interview_kids-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/interview_kids-v1.0/interview_kids-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/interview_kids.md",
+"kind": "factory",
+"icon_url": "icons/interview_kids.svg"
+},
+{
+"id": "interview_qs",
+"name": "Hire Right",
+"tagline": "Structured interviews for small teams",
+"category": "Business",
+"about": "Hire Right writes job descriptions, structured interview questions with scoring rubrics, and candidate feedback — fair and consistent.",
+"colors": [
+"#1E88E5",
+"#FF7043",
+"#43A047"
+],
+"icon": "chat",
+"package": "com.mohithash.byok.interviewqs",
+"tools": [
+{
+"emoji": "📄",
+"title": "Job description",
+"subtitle": "Clear and inclusive"
+},
+{
+"emoji": "❓",
+"title": "Interview questions",
+"subtitle": "With rubric"
+},
+{
+"emoji": "⚖️",
+"title": "Compare candidates",
+"subtitle": "Paste notes"
+},
+{
+"emoji": "✉️",
+"title": "Candidate feedback",
+"subtitle": "Rejection or offer"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/interview_qs-v1.0/interview_qs-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/interview_qs-v1.0/interview_qs-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/interview_qs.md",
+"kind": "factory",
+"icon_url": "icons/interview_qs.svg"
+},
+{
+"id": "invoice_ninja_lite",
+"name": "Invoice Pen",
+"tagline": "Invoices, quotes and payment chasers for freelancers",
+"category": "Business",
+"about": "Invoice Pen drafts professional invoices and quotes as clean text you can paste anywhere, calculates tax, and writes firm-but-friendly payment reminders.",
+"colors": [
+"#37474F",
+"#FF7043",
+"#26A69A"
+],
+"icon": "note",
+"package": "com.mohithash.byok.invoiceninjalite",
+"tools": [
+{
+"emoji": "🧾",
+"title": "Draft an invoice",
+"subtitle": "Items → formatted invoice"
+},
+{
+"emoji": "💼",
+"title": "Write a quote",
+"subtitle": "Scope, price, terms"
+},
+{
+"emoji": "⏰",
+"title": "Chase a payment",
+"subtitle": "Overdue? Escalate politely"
+},
+{
+"emoji": "🏦",
+"title": "Tax set-aside",
+"subtitle": "How much to keep back"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/invoice_ninja_lite-v1.0/invoice_ninja_lite-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/invoice_ninja_lite-v1.0/invoice_ninja_lite-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/invoice_ninja_lite.md",
+"kind": "factory",
+"icon_url": "icons/invoice_ninja_lite.svg"
+},
+{
+"id": "keto_kitchen",
+"name": "Keto Kitchen",
+"tagline": "Low-carb meals that don't feel like a diet",
+"category": "Food & Drink",
+"about": "Keto Kitchen builds low-carb meals and weeks, checks net carbs from labels, adapts favourites and handles restaurants.",
+"colors": [
+"#6D4C41",
+"#FF8F00",
+"#43A047"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.ketokitchen",
+"tools": [
+{
+"emoji": "🥩",
+"title": "Meal ideas",
+"subtitle": "From what you have"
+},
+{
+"emoji": "📷",
+"title": "Net carbs from a label",
+"subtitle": "Photo"
+},
+{
+"emoji": "🗓️",
+"title": "Weekly plan",
+"subtitle": "Under your limit"
+},
+{
+"emoji": "🍽️",
+"title": "Eating out",
+"subtitle": "Any cuisine"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/keto_kitchen-v1.0/keto_kitchen-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/keto_kitchen-v1.0/keto_kitchen-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/keto_kitchen.md",
+"kind": "factory",
+"icon_url": "icons/keto_kitchen.svg"
+},
+{
+"id": "kid_activities",
+"name": "Rainy Day Box",
+"tagline": "Kids' activities from what's in the house",
+"category": "Parenting",
+"about": "Rainy Day Box invents age-appropriate activities from household items, plans birthday parties and screen-free afternoons, and turns chores into games.",
+"colors": [
+"#FF7043",
+"#4DB6AC",
+"#FFCA28"
+],
+"icon": "star",
+"package": "com.mohithash.byok.kidactivities",
+"tools": [
+{
+"emoji": "🎨",
+"title": "Something to do now",
+"subtitle": "From what you have"
+},
+{
+"emoji": "🎂",
+"title": "Birthday party",
+"subtitle": "Plan it"
+},
+{
+"emoji": "🧹",
+"title": "Chores as games",
+"subtitle": "Get help without nagging"
+},
+{
+"emoji": "🌳",
+"title": "Free outing",
+"subtitle": "Nearby, low cost"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/kid_activities-v1.0/kid_activities-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/kid_activities-v1.0/kid_activities-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/kid_activities.md",
+"kind": "factory",
+"icon_url": "icons/kid_activities.svg"
+},
+{
+"id": "kids_tutor",
+"name": "Homework Helper",
+"tagline": "Help your child without doing it for them",
+"category": "Education",
+"about": "Homework Helper explains school topics to parents and kids, turns worksheets into guided practice, and builds games for spelling and times tables.",
+"colors": [
+"#FF7043",
+"#4DB6AC",
+"#FFB300"
+],
+"icon": "book",
+"package": "com.mohithash.byok.kidstutor",
+"tools": [
+{
+"emoji": "📷",
+"title": "Help with this",
+"subtitle": "Photo of the homework"
+},
+{
+"emoji": "🔤",
+"title": "Spelling game",
+"subtitle": "This week's list"
+},
+{
+"emoji": "✖️",
+"title": "Times tables",
+"subtitle": "Practice that sticks"
+},
+{
+"emoji": "📖",
+"title": "Reading questions",
+"subtitle": "Comprehension for any text"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/kids_tutor-v1.0/kids_tutor-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/kids_tutor-v1.0/kids_tutor-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/kids_tutor.md",
+"kind": "factory",
+"icon_url": "icons/kids_tutor.svg"
+},
+{
+"id": "landlord_lite",
+"name": "Landlord Desk",
+"tagline": "Manage a rental without the headaches",
+"category": "Business",
+"about": "Landlord Desk drafts tenant communications, builds inspection and maintenance schedules, calculates yield and prepares for handovers.",
+"colors": [
+"#37474F",
+"#FFB300",
+"#00897B"
+],
+"icon": "home",
+"package": "com.mohithash.byok.landlordlite",
+"tools": [
+{
+"emoji": "✉️",
+"title": "Write to a tenant",
+"subtitle": "Repairs, rent, notices"
+},
+{
+"emoji": "🗓️",
+"title": "Maintenance schedule",
+"subtitle": "Annual plan"
+},
+{
+"emoji": "📊",
+"title": "Yield & costs",
+"subtitle": "Is it working?"
+},
+{
+"emoji": "🔑",
+"title": "Tenant handover",
+"subtitle": "Check-in / check-out"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/landlord_lite-v1.0/landlord_lite-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/landlord_lite-v1.0/landlord_lite-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/landlord_lite.md",
+"kind": "factory",
+"icon_url": "icons/landlord_lite.svg"
+},
+{
+"id": "lingo_flash",
+"name": "Phrasebook Pro",
+"tagline": "Say it right in any language, right now",
+"category": "Education",
+"about": "Phrasebook Pro gives situation-ready phrases with pronunciation, translates menus and signs from photos, and drills you on what you'll actually say.",
+"colors": [
+"#1565C0",
+"#FF7043",
+"#26A69A"
+],
+"icon": "globe",
+"package": "com.mohithash.byok.lingoflash",
+"tools": [
+{
+"emoji": "💬",
+"title": "Phrases for…",
+"subtitle": "Any situation"
+},
+{
+"emoji": "📷",
+"title": "Translate a photo",
+"subtitle": "Menu, sign, label"
+},
+{
+"emoji": "⚡",
+"title": "Drill me",
+"subtitle": "10 quick-fire cards"
+},
+{
+"emoji": "✏️",
+"title": "Fix my sentence",
+"subtitle": "Say it naturally"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/lingo_flash-v1.0/lingo_flash-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/lingo_flash-v1.0/lingo_flash-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/lingo_flash.md",
+"kind": "factory",
+"icon_url": "icons/lingo_flash.svg"
+},
+{
+"id": "linkedin_lift",
+"name": "Profile Lift",
+"tagline": "LinkedIn that gets recruiters to message you",
+"category": "Business",
+"about": "Profile Lift rewrites headlines and About sections, turns job history into achievement bullets, and drafts posts that build credibility.",
+"colors": [
+"#0A66C2",
+"#FF8F00",
+"#00897B"
+],
+"icon": "graph",
+"package": "com.mohithash.byok.linkedinlift",
+"tools": [
+{
+"emoji": "✨",
+"title": "Headline & About",
+"subtitle": "Rewrite"
+},
+{
+"emoji": "🎯",
+"title": "Achievement bullets",
+"subtitle": "For one role"
+},
+{
+"emoji": "📝",
+"title": "Write a post",
+"subtitle": "Credibility, not cringe"
+},
+{
+"emoji": "💬",
+"title": "Recruiter reply",
+"subtitle": "Say yes, no, or maybe"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/linkedin_lift-v1.0/linkedin_lift-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/linkedin_lift-v1.0/linkedin_lift-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/linkedin_lift.md",
+"kind": "factory",
+"icon_url": "icons/linkedin_lift.svg"
+},
+{
+"id": "marathon_nutrition",
+"name": "Fuel Up",
+"tagline": "Sports nutrition for training and race day",
+"category": "Sports",
+"about": "Fuel Up plans daily nutrition for your training load, carb-loads before races, builds in-race fuelling and fixes GI issues.",
+"colors": [
+"#EF6C00",
+"#00838F",
+"#43A047"
+],
+"icon": "flame",
+"package": "com.mohithash.byok.marathonnutrition",
+"tools": [
+{
+"emoji": "🍝",
+"title": "Today's fuel",
+"subtitle": "By session"
+},
+{
+"emoji": "📈",
+"title": "Carb-load",
+"subtitle": "Race week"
+},
+{
+"emoji": "⛽",
+"title": "In-race fuelling",
+"subtitle": "Gels, drinks, real food"
+},
+{
+"emoji": "🤢",
+"title": "Fix GI issues",
+"subtitle": "Cramps, nausea"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/marathon_nutrition-v1.0/marathon_nutrition-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/marathon_nutrition-v1.0/marathon_nutrition-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/marathon_nutrition.md",
+"kind": "factory",
+"icon_url": "icons/marathon_nutrition.svg"
+},
+{
+"id": "math_mentor",
+"name": "Math Mentor",
+"tagline": "Step-by-step help that teaches, not tells",
+"category": "Education",
+"about": "Math Mentor solves problems step by step from a photo or text, explains the why, generates practice sets and spots your recurring mistakes.",
+"colors": [
+"#1565C0",
+"#FF7043",
+"#43A047"
+],
+"icon": "graph",
+"package": "com.mohithash.byok.mathmentor",
+"tools": [
+{
+"emoji": "🧮",
+"title": "Solve & explain",
+"subtitle": "Photo or typed problem"
+},
+{
+"emoji": "📝",
+"title": "Practice set",
+"subtitle": "10 questions, one topic"
+},
+{
+"emoji": "💡",
+"title": "Explain a concept",
+"subtitle": "Like I'm curious, not stupid"
+},
+{
+"emoji": "🔍",
+"title": "Analyse my mistakes",
+"subtitle": "Paste wrong answers"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/math_mentor-v1.0/math_mentor-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/math_mentor-v1.0/math_mentor-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/math_mentor.md",
+"kind": "factory",
+"icon_url": "icons/math_mentor.svg"
+},
+{
+"id": "meal_prep_pro",
+"name": "Meal Prep Pro",
+"tagline": "A week of lunches in one Sunday session",
+"category": "Food & Drink",
+"about": "Meal Prep Pro plans batch-cooking sessions that fit your macros, containers and budget, with a shopping list and a cook order that finishes everything at once.",
+"colors": [
+"#00695C",
+"#FF8F00",
+"#5E35B1"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.mealpreppro",
+"tools": [
+{
+"emoji": "🗓️",
+"title": "Plan my week",
+"subtitle": "Lunches + dinners from one session"
+},
+{
+"emoji": "🎯",
+"title": "Hit my macros",
+"subtitle": "Recipes for a protein/carb/fat target"
+},
+{
+"emoji": "📷",
+"title": "Cook from my fridge",
+"subtitle": "Photo → what to prep"
+},
+{
+"emoji": "🔥",
+"title": "Storage & reheating",
+"subtitle": "Keep prepped food safe and tasty"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/meal_prep_pro-v1.0/meal_prep_pro-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/meal_prep_pro-v1.0/meal_prep_pro-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/meal_prep_pro.md",
+"kind": "factory",
+"icon_url": "icons/meal_prep_pro.svg"
+},
+{
+"id": "meeting_mate",
+"name": "Meeting Mate",
+"tagline": "Agendas in, decisions out",
+"category": "Productivity",
+"about": "Meeting Mate writes tight agendas, turns messy notes into minutes with owners and deadlines, and drafts the follow-up email.",
+"colors": [
+"#00695C",
+"#FFB300",
+"#5C6BC0"
+],
+"icon": "note",
+"package": "com.mohithash.byok.meetingmate",
+"tools": [
+{
+"emoji": "📋",
+"title": "Write an agenda",
+"subtitle": "Purpose → time-boxed plan"
+},
+{
+"emoji": "📝",
+"title": "Notes → minutes",
+"subtitle": "Paste raw notes"
+},
+{
+"emoji": "✉️",
+"title": "Follow-up email",
+"subtitle": "Send within the hour"
+},
+{
+"emoji": "🤔",
+"title": "Should this be a meeting?",
+"subtitle": "Or an email"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/meeting_mate-v1.0/meeting_mate-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/meeting_mate-v1.0/meeting_mate-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/meeting_mate.md",
+"kind": "factory",
+"icon_url": "icons/meeting_mate.svg"
+},
+{
+"id": "mind_ease",
+"name": "Mind Ease",
+"tagline": "Tools for anxious moments and heavy days",
+"category": "Health & Fitness",
+"about": "Mind Ease offers CBT-style thought records, grounding exercises, worry scheduling and self-compassion practices — private, on your phone.",
+"colors": [
+"#3949AB",
+"#26A69A",
+"#FFB300"
+],
+"icon": "brain",
+"package": "com.mohithash.byok.mindease",
+"tools": [
+{
+"emoji": "🧾",
+"title": "Thought record",
+"subtitle": "Challenge a thought"
+},
+{
+"emoji": "🌿",
+"title": "Ground me now",
+"subtitle": "3 minutes"
+},
+{
+"emoji": "🗂️",
+"title": "Worry time",
+"subtitle": "Sort worries"
+},
+{
+"emoji": "💛",
+"title": "Self-compassion",
+"subtitle": "Talk to yourself like a friend"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/mind_ease-v1.0/mind_ease-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/mind_ease-v1.0/mind_ease-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/mind_ease.md",
+"kind": "factory",
+"icon_url": "icons/mind_ease.svg"
+},
+{
+"id": "move_planner",
+"name": "Move Master",
+"tagline": "Relocating without the chaos",
+"category": "House & Home",
+"about": "Move Master builds moving timelines, room-by-room packing plans, address-change checklists and first-week setup for a new city.",
+"colors": [
+"#EF6C00",
+"#00838F",
+"#5E35B1"
+],
+"icon": "home",
+"package": "com.mohithash.byok.moveplanner",
+"tools": [
+{
+"emoji": "📅",
+"title": "Moving timeline",
+"subtitle": "From now to move day"
+},
+{
+"emoji": "📦",
+"title": "Packing plan",
+"subtitle": "Room by room"
+},
+{
+"emoji": "✉️",
+"title": "Address change list",
+"subtitle": "Who to tell"
+},
+{
+"emoji": "🏠",
+"title": "First week in a new place",
+"subtitle": "Set up life fast"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/move_planner-v1.0/move_planner-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/move_planner-v1.0/move_planner-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/move_planner.md",
+"kind": "factory",
+"icon_url": "icons/move_planner.svg"
+},
+{
+"id": "negotiator",
+"name": "Haggle",
+"tagline": "Scripts for every negotiation",
+"category": "Business",
+"about": "Haggle prepares you for salary talks, rent, car deals, freelance rates and refunds with numbers, scripts and counters.",
+"colors": [
+"#37474F",
+"#FFB300",
+"#00897B"
+],
+"icon": "scale",
+"package": "com.mohithash.byok.negotiator",
+"tools": [
+{
+"emoji": "📋",
+"title": "Prep sheet",
+"subtitle": "Any negotiation"
+},
+{
+"emoji": "🎭",
+"title": "Give me a script",
+"subtitle": "What to actually say"
+},
+{
+"emoji": "✉️",
+"title": "Negotiation email",
+"subtitle": "Counter in writing"
+},
+{
+"emoji": "↩️",
+"title": "Get a refund",
+"subtitle": "Consumer complaint that works"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/negotiator-v1.0/negotiator-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/negotiator-v1.0/negotiator-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/negotiator.md",
+"kind": "factory",
+"icon_url": "icons/negotiator.svg"
+},
+{
+"id": "neighbour_notes",
+"name": "Good Neighbour",
+"tagline": "Handle the awkward stuff next door",
+"category": "Lifestyle",
+"about": "Good Neighbour drafts notes and conversations about noise, parking, pets and shared spaces, organises building groups and plans street events.",
+"colors": [
+"#00897B",
+"#FF8F00",
+"#5E35B1"
+],
+"icon": "home",
+"package": "com.mohithash.byok.neighbournotes",
+"tools": [
+{
+"emoji": "📝",
+"title": "Write a note",
+"subtitle": "Noise, parking, bins…"
+},
+{
+"emoji": "💬",
+"title": "Talk in person",
+"subtitle": "Script"
+},
+{
+"emoji": "👥",
+"title": "Start a building group",
+"subtitle": "WhatsApp, rules, first message"
+},
+{
+"emoji": "🎉",
+"title": "Street party / meetup",
+"subtitle": "Plan it"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/neighbour_notes-v1.0/neighbour_notes-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/neighbour_notes-v1.0/neighbour_notes-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/neighbour_notes.md",
+"kind": "factory",
+"icon_url": "icons/neighbour_notes.svg"
+},
+{
+"id": "novel_ist",
+"name": "Plot Smith",
+"tagline": "Outline, characters and scenes for your novel",
+"category": "Books & Reference",
+"about": "Plot Smith helps novelists plan: beat-sheet outlines, character bibles, scene cards, and feedback on chapters — always in service of your book.",
+"colors": [
+"#37474F",
+"#FF8F00",
+"#8E24AA"
+],
+"icon": "book",
+"package": "com.mohithash.byok.novelist",
+"tools": [
+{
+"emoji": "🗂️",
+"title": "Beat sheet",
+"subtitle": "Premise → structure"
+},
+{
+"emoji": "👤",
+"title": "Character bible",
+"subtitle": "Make them real"
+},
+{
+"emoji": "🎬",
+"title": "Plan a scene",
+"subtitle": "Purpose, conflict, turn"
+},
+{
+"emoji": "📝",
+"title": "Chapter feedback",
+"subtitle": "Paste a chapter"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/novel_ist-v1.0/novel_ist-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/novel_ist-v1.0/novel_ist-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/novel_ist.md",
+"kind": "factory",
+"icon_url": "icons/novel_ist.svg"
+},
+{
+"id": "outfit_kids_school",
+"name": "Uniform & Co",
+"tagline": "School-year logistics for busy parents",
+"category": "Parenting",
+"about": "Uniform & Co plans back-to-school lists, weekly family logistics, homework routines and communications with teachers.",
+"colors": [
+"#5E35B1",
+"#FFB300",
+"#26A69A"
+],
+"icon": "calendar",
+"package": "com.mohithash.byok.outfitkidsschool",
+"tools": [
+{
+"emoji": "🎒",
+"title": "Back-to-school list",
+"subtitle": "Everything, by child"
+},
+{
+"emoji": "🗓️",
+"title": "Weekly logistics",
+"subtitle": "Who, where, when"
+},
+{
+"emoji": "📚",
+"title": "Homework routine",
+"subtitle": "Less nagging"
+},
+{
+"emoji": "✉️",
+"title": "Email a teacher",
+"subtitle": "Concerns, requests, thanks"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/outfit_kids_school-v1.0/outfit_kids_school-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/outfit_kids_school-v1.0/outfit_kids_school-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/outfit_kids_school.md",
+"kind": "factory",
+"icon_url": "icons/outfit_kids_school.svg"
+},
+{
+"id": "pantry_pal",
+"name": "Pantry Pal",
+"tagline": "Dinner from what's already in your kitchen",
+"category": "Food & Drink",
+"about": "Pantry Pal turns whatever is in your fridge into real dinner ideas, shopping lists and swaps. Bring your own AI key; nothing is stored anywhere but your phone.",
+"colors": [
+"#D9481F",
+"#2E7D32",
+"#F9A825"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.pantrypal",
+"tools": [
+{
+"emoji": "🍳",
+"title": "What can I cook?",
+"subtitle": "Recipes that use what you have"
+},
+{
+"emoji": "📷",
+"title": "Scan my fridge",
+"subtitle": "Photo → inventory + ideas"
+},
+{
+"emoji": "🔁",
+"title": "Swap an ingredient",
+"subtitle": "Missing something? Fix it"
+},
+{
+"emoji": "🗓️",
+"title": "Weekly plan",
+"subtitle": "Dinners + one shopping list"
+},
+{
+"emoji": "♻️",
+"title": "Rescue leftovers",
+"subtitle": "Turn last night into tonight"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/pantry_pal-v1.0/pantry_pal-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/pantry_pal-v1.0/pantry_pal-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/pantry_pal.md",
+"kind": "factory",
+"icon_url": "icons/pantry_pal.svg"
+},
+{
+"id": "period_pal",
+"name": "Cycle Sense",
+"tagline": "Understand your cycle, plan around it",
+"category": "Health & Fitness",
+"about": "Cycle Sense explains cycle phases, predicts from your dates, suggests training and nutrition by phase, and helps track symptoms for your doctor.",
+"colors": [
+"#AD1457",
+"#26A69A",
+"#FFB300"
+],
+"icon": "heart",
+"package": "com.mohithash.byok.periodpal",
+"tools": [
+{
+"emoji": "📅",
+"title": "Where am I?",
+"subtitle": "Today's phase & tips"
+},
+{
+"emoji": "🗓️",
+"title": "Plan my week by phase",
+"subtitle": "Training, food, energy"
+},
+{
+"emoji": "📝",
+"title": "Symptom log",
+"subtitle": "Prepare for your doctor"
+},
+{
+"emoji": "💬",
+"title": "Explain",
+"subtitle": "Any cycle question"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/period_pal-v1.0/period_pal-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/period_pal-v1.0/period_pal-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/period_pal.md",
+"kind": "factory",
+"icon_url": "icons/period_pal.svg"
+},
+{
+"id": "photo_mentor",
+"name": "Shot Mentor",
+"tagline": "Take better photos with the camera you have",
+"category": "Photography",
+"about": "Shot Mentor critiques your photos, gives camera settings for any scene, plans shoots and teaches editing recipes.",
+"colors": [
+"#263238",
+"#FFB300",
+"#00ACC1"
+],
+"icon": "camera",
+"package": "com.mohithash.byok.photomentor",
+"tools": [
+{
+"emoji": "📷",
+"title": "Critique my photo",
+"subtitle": "Honest and useful"
+},
+{
+"emoji": "⚙️",
+"title": "Settings for…",
+"subtitle": "Any scene"
+},
+{
+"emoji": "🗺️",
+"title": "Plan a shoot",
+"subtitle": "Location, time, shot list"
+},
+{
+"emoji": "🎨",
+"title": "Edit recipe",
+"subtitle": "For a look"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/photo_mentor-v1.0/photo_mentor-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/photo_mentor-v1.0/photo_mentor-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/photo_mentor.md",
+"kind": "factory",
+"icon_url": "icons/photo_mentor.svg"
+},
+{
+"id": "plant_doctor",
+"name": "Leaf Doctor",
+"tagline": "Identify, diagnose and care for houseplants",
+"category": "House & Home",
+"about": "Leaf Doctor identifies plants from a photo, builds care schedules, diagnoses yellow leaves and pests, and plans propagation.",
+"colors": [
+"#2E7D32",
+"#FF8F00",
+"#0288D1"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.plantdoctor",
+"tools": [
+{
+"emoji": "🔍",
+"title": "Identify & care",
+"subtitle": "Photo → species + care plan"
+},
+{
+"emoji": "🩺",
+"title": "What's wrong?",
+"subtitle": "Photo + symptoms → fix"
+},
+{
+"emoji": "📅",
+"title": "Care calendar",
+"subtitle": "All my plants, one week"
+},
+{
+"emoji": "🌱",
+"title": "Propagate",
+"subtitle": "Make more plants"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/plant_doctor-v1.0/plant_doctor-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/plant_doctor-v1.0/plant_doctor-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/plant_doctor.md",
+"kind": "factory",
+"icon_url": "icons/plant_doctor.svg"
+},
+{
+"id": "posture_desk",
+"name": "Desk Doctor",
+"tagline": "Fix the aches from sitting all day",
+"category": "Health & Fitness",
+"about": "Desk Doctor sets up your workstation from a photo, prescribes micro-break routines, and builds mobility plans for neck, back, wrists and hips.",
+"colors": [
+"#00838F",
+"#FF7043",
+"#7E57C2"
+],
+"icon": "shield",
+"package": "com.mohithash.byok.posturedesk",
+"tools": [
+{
+"emoji": "📷",
+"title": "Check my desk",
+"subtitle": "Photo → adjustments"
+},
+{
+"emoji": "⏱️",
+"title": "Micro-break routine",
+"subtitle": "2 minutes every hour"
+},
+{
+"emoji": "🧘",
+"title": "Mobility plan",
+"subtitle": "10 min/day, 2 weeks"
+},
+{
+"emoji": "🩹",
+"title": "Pain right now",
+"subtitle": "What to do today"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/posture_desk-v1.0/posture_desk-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/posture_desk-v1.0/posture_desk-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/posture_desk.md",
+"kind": "factory",
+"icon_url": "icons/posture_desk.svg"
+},
+{
+"id": "presentation_kid",
+"name": "Science Fair",
+"tagline": "Projects, posters and presentations for students",
+"category": "Education",
+"about": "Science Fair helps students pick a project, design a fair test, analyse results, build the poster and rehearse the judges' questions.",
+"colors": [
+"#1565C0",
+"#FFB300",
+"#43A047"
+],
+"icon": "bulb",
+"package": "com.mohithash.byok.presentationkid",
+"tools": [
+{
+"emoji": "💡",
+"title": "Project ideas",
+"subtitle": "Doable and interesting"
+},
+{
+"emoji": "🧪",
+"title": "Design the experiment",
+"subtitle": "Variables and fair test"
+},
+{
+"emoji": "📊",
+"title": "Analyse results",
+"subtitle": "Paste your data"
+},
+{
+"emoji": "🖼️",
+"title": "Poster & judges",
+"subtitle": "Layout and Q&A"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/presentation_kid-v1.0/presentation_kid-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/presentation_kid-v1.0/presentation_kid-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/presentation_kid.md",
+"kind": "factory",
+"icon_url": "icons/presentation_kid.svg"
+},
+{
+"id": "prompt_smith",
+"name": "Prompt Smith",
+"tagline": "Write better prompts for any AI",
+"category": "Tools",
+"about": "Prompt Smith turns rough asks into structured prompts, critiques your prompts, builds reusable templates and explains why outputs went wrong.",
+"colors": [
+"#37474F",
+"#00E5FF",
+"#FF4081"
+],
+"icon": "spark",
+"package": "com.mohithash.byok.promptsmith",
+"tools": [
+{
+"emoji": "✨",
+"title": "Improve my prompt",
+"subtitle": "Paste it"
+},
+{
+"emoji": "🏗️",
+"title": "Build from a goal",
+"subtitle": "Describe the outcome"
+},
+{
+"emoji": "🔍",
+"title": "Why did it fail?",
+"subtitle": "Paste prompt + bad output"
+},
+{
+"emoji": "📚",
+"title": "Template library",
+"subtitle": "For your use case"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/prompt_smith-v1.0/prompt_smith-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/prompt_smith-v1.0/prompt_smith-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/prompt_smith.md",
+"kind": "factory",
+"icon_url": "icons/prompt_smith.svg"
+},
+{
+"id": "public_speaker",
+"name": "Stage Ready",
+"tagline": "Speeches, pitches and presentations that land",
+"category": "Business",
+"about": "Stage Ready structures talks, writes openings and closings, builds slide outlines, and rehearses you with tough questions.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#37474F"
+],
+"icon": "mic",
+"package": "com.mohithash.byok.publicspeaker",
+"tools": [
+{
+"emoji": "🏗️",
+"title": "Structure my talk",
+"subtitle": "Message → outline"
+},
+{
+"emoji": "🖥️",
+"title": "Slide outline",
+"subtitle": "Titles that make the point"
+},
+{
+"emoji": "❓",
+"title": "Rehearse Q&A",
+"subtitle": "Tough questions"
+},
+{
+"emoji": "🫁",
+"title": "Calm my nerves",
+"subtitle": "Before you go on"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/public_speaker-v1.0/public_speaker-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/public_speaker-v1.0/public_speaker-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/public_speaker.md",
+"kind": "factory",
+"icon_url": "icons/public_speaker.svg"
+},
+{
+"id": "regex_ranger",
+"name": "Pattern Pal",
+"tagline": "Regex written, explained and tested",
+"category": "Tools",
+"about": "Pattern Pal builds regular expressions from examples, explains cryptic patterns, and generates test cases — for JS, Python, Go and more.",
+"colors": [
+"#4E342E",
+"#00E676",
+"#FF7043"
+],
+"icon": "gear",
+"package": "com.mohithash.byok.regexranger",
+"tools": [
+{
+"emoji": "🧩",
+"title": "Build a regex",
+"subtitle": "From description + examples"
+},
+{
+"emoji": "🔍",
+"title": "Explain a regex",
+"subtitle": "Paste it"
+},
+{
+"emoji": "🔁",
+"title": "Find & replace",
+"subtitle": "Transform text"
+},
+{
+"emoji": "✅",
+"title": "Validate input",
+"subtitle": "Email, phone, dates…"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/regex_ranger-v1.0/regex_ranger-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/regex_ranger-v1.0/regex_ranger-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/regex_ranger.md",
+"kind": "factory",
+"icon_url": "icons/regex_ranger.svg"
+},
+{
+"id": "resume_forge",
+"name": "Résumé Forge",
+"tagline": "CVs and cover letters that pass the screen",
+"category": "Business",
+"about": "Résumé Forge tailors your CV to a job posting, writes cover letters in your voice, preps interview answers and negotiates offers.",
+"colors": [
+"#1E88E5",
+"#FF7043",
+"#43A047"
+],
+"icon": "note",
+"package": "com.mohithash.byok.resumeforge",
+"tools": [
+{
+"emoji": "🎯",
+"title": "Tailor my CV",
+"subtitle": "To a specific posting"
+},
+{
+"emoji": "✉️",
+"title": "Cover letter",
+"subtitle": "Specific, short, human"
+},
+{
+"emoji": "🎤",
+"title": "Interview prep",
+"subtitle": "Likely questions + your answers"
+},
+{
+"emoji": "💰",
+"title": "Negotiate an offer",
+"subtitle": "Scripts and numbers"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/resume_forge-v1.0/resume_forge-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/resume_forge-v1.0/resume_forge-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/resume_forge.md",
+"kind": "factory",
+"icon_url": "icons/resume_forge.svg"
+},
+{
+"id": "road_trip",
+"name": "Road Trip Radio",
+"tagline": "Routes, stops and playlists for the open road",
+"category": "Travel & Local",
+"about": "Road Trip Radio plans multi-day drives with sensible daily distances, worthwhile stops, budgets and packing — plus games and playlist themes.",
+"colors": [
+"#EF6C00",
+"#0288D1",
+"#43A047"
+],
+"icon": "car",
+"package": "com.mohithash.byok.roadtrip",
+"tools": [
+{
+"emoji": "🛣️",
+"title": "Plan the route",
+"subtitle": "From A to B with stops"
+},
+{
+"emoji": "💰",
+"title": "Budget the trip",
+"subtitle": "Fuel, stays, food"
+},
+{
+"emoji": "🎒",
+"title": "Packing & car prep",
+"subtitle": "Nothing forgotten"
+},
+{
+"emoji": "🎶",
+"title": "Games & playlist",
+"subtitle": "Keep everyone happy"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/road_trip-v1.0/road_trip-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/road_trip-v1.0/road_trip-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/road_trip.md",
+"kind": "factory",
+"icon_url": "icons/road_trip.svg"
+},
+{
+"id": "run_coach",
+"name": "Run Plan",
+"tagline": "Couch to 5K to marathon, adapted to your week",
+"category": "Health & Fitness",
+"about": "Run Plan builds training blocks around your real schedule, adjusts after missed runs, predicts race times and reviews your weeks.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#00838F"
+],
+"icon": "flame",
+"package": "com.mohithash.byok.runcoach",
+"tools": [
+{
+"emoji": "🏃",
+"title": "Training block",
+"subtitle": "Next 4 weeks"
+},
+{
+"emoji": "🔁",
+"title": "I missed runs",
+"subtitle": "Re-plan the week"
+},
+{
+"emoji": "⏱️",
+"title": "Race predictor",
+"subtitle": "Paces and a race plan"
+},
+{
+"emoji": "📓",
+"title": "Review my week",
+"subtitle": "Paste your log"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/run_coach-v1.0/run_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/run_coach-v1.0/run_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/run_coach.md",
+"kind": "factory",
+"icon_url": "icons/run_coach.svg"
+},
+{
+"id": "science_lab",
+"name": "Science Explainer",
+"tagline": "Any science question, explained at your level",
+"category": "Education",
+"about": "Science Explainer answers physics, chemistry and biology questions with intuition first, then rigour, plus experiments you can do at home and exam-style practice.",
+"colors": [
+"#00838F",
+"#FF7043",
+"#7E57C2"
+],
+"icon": "bulb",
+"package": "com.mohithash.byok.sciencelab",
+"tools": [
+{
+"emoji": "🔬",
+"title": "Explain",
+"subtitle": "Any question"
+},
+{
+"emoji": "🧪",
+"title": "Home experiment",
+"subtitle": "Safe, cheap, wow"
+},
+{
+"emoji": "❓",
+"title": "Quiz me",
+"subtitle": "10 questions"
+},
+{
+"emoji": "📷",
+"title": "Explain this diagram",
+"subtitle": "Photo of a textbook figure"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/science_lab-v1.0/science_lab-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/science_lab-v1.0/science_lab-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/science_lab.md",
+"kind": "factory",
+"icon_url": "icons/science_lab.svg"
+},
+{
+"id": "side_hustle",
+"name": "Side Hustle Lab",
+"tagline": "Validate and launch a small business in a weekend",
+"category": "Business",
+"about": "Side Hustle Lab pressure-tests ideas, writes a one-page plan, prices your offer, and drafts the first landing page and launch posts.",
+"colors": [
+"#EF6C00",
+"#00838F",
+"#5E35B1"
+],
+"icon": "bulb",
+"package": "com.mohithash.byok.sidehustle",
+"tools": [
+{
+"emoji": "🔬",
+"title": "Validate an idea",
+"subtitle": "Will anyone pay?"
+},
+{
+"emoji": "📄",
+"title": "One-page plan",
+"subtitle": "Model, costs, first 90 days"
+},
+{
+"emoji": "💲",
+"title": "Price it",
+"subtitle": "Packages and anchors"
+},
+{
+"emoji": "🚀",
+"title": "Launch kit",
+"subtitle": "Landing copy + posts"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/side_hustle-v1.0/side_hustle-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/side_hustle-v1.0/side_hustle-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/side_hustle.md",
+"kind": "factory",
+"icon_url": "icons/side_hustle.svg"
+},
+{
+"id": "skin_coach",
+"name": "Skin Routine",
+"tagline": "Routines that fit your skin and budget",
+"category": "Beauty",
+"about": "Skin Routine builds AM/PM routines, decodes ingredient lists from photos, checks product compatibility and troubleshoots breakouts.",
+"colors": [
+"#F06292",
+"#4DB6AC",
+"#FFB300"
+],
+"icon": "sun",
+"package": "com.mohithash.byok.skincoach",
+"tools": [
+{
+"emoji": "🧴",
+"title": "Build my routine",
+"subtitle": "AM + PM"
+},
+{
+"emoji": "📷",
+"title": "Decode ingredients",
+"subtitle": "Photo of the label"
+},
+{
+"emoji": "🔬",
+"title": "Can I use these together?",
+"subtitle": "Actives compatibility"
+},
+{
+"emoji": "🩹",
+"title": "Breakout help",
+"subtitle": "What's going on"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/skin_coach-v1.0/skin_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/skin_coach-v1.0/skin_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/skin_coach.md",
+"kind": "factory",
+"icon_url": "icons/skin_coach.svg"
+},
+{
+"id": "sleep_reset",
+"name": "Sleep Reset",
+"tagline": "Fall asleep faster, wake up human",
+"category": "Health & Fitness",
+"about": "Sleep Reset builds a personal wind-down routine, fixes jet lag and shift-work schedules, and analyses your sleep diary for what's actually keeping you up.",
+"colors": [
+"#283593",
+"#FFB300",
+"#26A69A"
+],
+"icon": "moon",
+"package": "com.mohithash.byok.sleepreset",
+"tools": [
+{
+"emoji": "🌙",
+"title": "Wind-down routine",
+"subtitle": "60 minutes to sleep"
+},
+{
+"emoji": "✈️",
+"title": "Jet-lag plan",
+"subtitle": "Shift your clock before you fly"
+},
+{
+"emoji": "📓",
+"title": "Analyse my sleep diary",
+"subtitle": "Find the pattern"
+},
+{
+"emoji": "☕",
+"title": "Nap & caffeine timing",
+"subtitle": "Today's optimal schedule"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/sleep_reset-v1.0/sleep_reset-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/sleep_reset-v1.0/sleep_reset-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/sleep_reset.md",
+"kind": "factory",
+"icon_url": "icons/sleep_reset.svg"
+},
+{
+"id": "social_caption",
+"name": "Caption Craft",
+"tagline": "Captions, hashtags and content calendars",
+"category": "Social",
+"about": "Caption Craft writes on-brand captions from a photo, plans a month of posts, and turns one idea into formats for every platform.",
+"colors": [
+"#E91E63",
+"#FFC107",
+"#00BCD4"
+],
+"icon": "camera",
+"package": "com.mohithash.byok.socialcaption",
+"tools": [
+{
+"emoji": "📷",
+"title": "Caption this",
+"subtitle": "Photo → 3 captions"
+},
+{
+"emoji": "📅",
+"title": "30-day calendar",
+"subtitle": "Never stare at a blank feed"
+},
+{
+"emoji": "♻️",
+"title": "Repurpose",
+"subtitle": "One idea, every platform"
+},
+{
+"emoji": "💬",
+"title": "Reply to comments",
+"subtitle": "Even the rude ones"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/social_caption-v1.0/social_caption-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/social_caption-v1.0/social_caption-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/social_caption.md",
+"kind": "factory",
+"icon_url": "icons/social_caption.svg"
+},
+{
+"id": "sommelier_pocket",
+"name": "Pocket Sommelier",
+"tagline": "The right bottle for the plate and the budget",
+"category": "Food & Drink",
+"about": "Pocket Sommelier pairs wine (and beer, sake, cocktails) with what you're eating, decodes labels from a photo, and builds tasting notes you can actually use.",
+"colors": [
+"#6A1B9A",
+"#C62828",
+"#F9A825"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.sommelierpocket",
+"tools": [
+{
+"emoji": "🍷",
+"title": "Pair my dinner",
+"subtitle": "Three bottles for tonight"
+},
+{
+"emoji": "📷",
+"title": "Decode a label",
+"subtitle": "Photo of a bottle → what it is"
+},
+{
+"emoji": "📝",
+"title": "Tasting notes",
+"subtitle": "Sound like you know what you're saying"
+},
+{
+"emoji": "🎉",
+"title": "Party math",
+"subtitle": "How much to buy for a crowd"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/sommelier_pocket-v1.0/sommelier_pocket-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/sommelier_pocket-v1.0/sommelier_pocket-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/sommelier_pocket.md",
+"kind": "factory",
+"icon_url": "icons/sommelier_pocket.svg"
+},
+{
+"id": "songwriter",
+"name": "Song Forge",
+"tagline": "Lyrics, chords and structure for your next song",
+"category": "Music & Audio",
+"about": "Song Forge co-writes lyrics in your voice, suggests chord progressions and structures, and gives honest feedback on drafts.",
+"colors": [
+"#AD1457",
+"#FFB300",
+"#00838F"
+],
+"icon": "music",
+"package": "com.mohithash.byok.songwriter",
+"tools": [
+{
+"emoji": "🎤",
+"title": "Write with me",
+"subtitle": "Theme → verse/chorus"
+},
+{
+"emoji": "🎸",
+"title": "Chords & structure",
+"subtitle": "For this song"
+},
+{
+"emoji": "📝",
+"title": "Feedback on lyrics",
+"subtitle": "Paste a draft"
+},
+{
+"emoji": "💡",
+"title": "Titles & concepts",
+"subtitle": "Get unstuck"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/songwriter-v1.0/songwriter-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/songwriter-v1.0/songwriter-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/songwriter.md",
+"kind": "factory",
+"icon_url": "icons/songwriter.svg"
+},
+{
+"id": "speech_therapy_home",
+"name": "Talk Time",
+"tagline": "Speech and language play for little ones",
+"category": "Parenting",
+"about": "Talk Time suggests age-appropriate speech and language activities, explains typical milestones and helps you prepare for a speech therapist.",
+"colors": [
+"#26A69A",
+"#FF7043",
+"#FFB300"
+],
+"icon": "baby",
+"package": "com.mohithash.byok.speechtherapyhome",
+"tools": [
+{
+"emoji": "🧸",
+"title": "Activities this week",
+"subtitle": "5 minutes a day"
+},
+{
+"emoji": "📈",
+"title": "Milestones",
+"subtitle": "What to expect"
+},
+{
+"emoji": "📚",
+"title": "Book time",
+"subtitle": "Reading for language"
+},
+{
+"emoji": "🩺",
+"title": "Prepare for an SLP visit",
+"subtitle": "Questions & notes"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/speech_therapy_home-v1.0/speech_therapy_home-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/speech_therapy_home-v1.0/speech_therapy_home-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/speech_therapy_home.md",
+"kind": "factory",
+"icon_url": "icons/speech_therapy_home.svg"
+},
+{
+"id": "split_smart",
+"name": "Split Smart",
+"tagline": "Fair bill splitting, no arguments",
+"category": "Finance",
+"about": "Split Smart reads receipts, splits by item or share, handles tips and tax, and writes the message that gets everyone to pay.",
+"colors": [
+"#00695C",
+"#F4B400",
+"#6A4CB0"
+],
+"icon": "coin",
+"package": "com.mohithash.byok.splitsmart",
+"tools": [
+{
+"emoji": "🧾",
+"title": "Split a receipt",
+"subtitle": "Photo + who had what"
+},
+{
+"emoji": "➗",
+"title": "Quick split",
+"subtitle": "No photo, just numbers"
+},
+{
+"emoji": "🧳",
+"title": "Trip settle-up",
+"subtitle": "Who owes whom after a trip"
+},
+{
+"emoji": "💬",
+"title": "Polite reminder",
+"subtitle": "Chase money without awkwardness"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/split_smart-v1.0/split_smart-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/split_smart-v1.0/split_smart-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/split_smart.md",
+"kind": "factory",
+"icon_url": "icons/split_smart.svg"
+},
+{
+"id": "sql_buddy",
+"name": "Query Buddy",
+"tagline": "SQL from plain English, explained",
+"category": "Tools",
+"about": "Query Buddy writes SQL for your schema, explains and optimises queries, and helps you design tables.",
+"colors": [
+"#0D47A1",
+"#FFB300",
+"#00BFA5"
+],
+"icon": "gear",
+"package": "com.mohithash.byok.sqlbuddy",
+"tools": [
+{
+"emoji": "🧾",
+"title": "Write a query",
+"subtitle": "Describe the result you want"
+},
+{
+"emoji": "🔍",
+"title": "Explain a query",
+"subtitle": "Paste SQL"
+},
+{
+"emoji": "⚡",
+"title": "Optimise",
+"subtitle": "Make it fast"
+},
+{
+"emoji": "📐",
+"title": "Design tables",
+"subtitle": "From a description"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/sql_buddy-v1.0/sql_buddy-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/sql_buddy-v1.0/sql_buddy-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/sql_buddy.md",
+"kind": "factory",
+"icon_url": "icons/sql_buddy.svg"
+},
+{
+"id": "study_planner",
+"name": "Exam Countdown",
+"tagline": "A revision timetable that adapts to you",
+"category": "Education",
+"about": "Exam Countdown turns your subjects and exam dates into a spaced-repetition revision timetable, then builds active-recall sessions and past-paper strategies.",
+"colors": [
+"#5E35B1",
+"#FFB300",
+"#00ACC1"
+],
+"icon": "calendar",
+"package": "com.mohithash.byok.studyplanner",
+"tools": [
+{
+"emoji": "📅",
+"title": "Build timetable",
+"subtitle": "From today to the exams"
+},
+{
+"emoji": "⏱️",
+"title": "Study session",
+"subtitle": "45 minutes, one topic"
+},
+{
+"emoji": "📝",
+"title": "Past-paper strategy",
+"subtitle": "How to attack the exam"
+},
+{
+"emoji": "🆘",
+"title": "I'm behind",
+"subtitle": "Rescue plan"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/study_planner-v1.0/study_planner-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/study_planner-v1.0/study_planner-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/study_planner.md",
+"kind": "factory",
+"icon_url": "icons/study_planner.svg"
+},
+{
+"id": "swim_coach",
+"name": "Swim Smart",
+"tagline": "Technique, sets and open-water prep",
+"category": "Sports",
+"about": "Swim Smart writes pool sets for your level, fixes stroke technique from descriptions, and prepares you for open water and triathlons.",
+"colors": [
+"#0288D1",
+"#FFB300",
+"#26A69A"
+],
+"icon": "drop",
+"package": "com.mohithash.byok.swimcoach",
+"tools": [
+{
+"emoji": "🏊",
+"title": "Today's set",
+"subtitle": "Time available"
+},
+{
+"emoji": "🔧",
+"title": "Fix my stroke",
+"subtitle": "Describe the problem"
+},
+{
+"emoji": "🌊",
+"title": "Open-water prep",
+"subtitle": "Sea, lake, river"
+},
+{
+"emoji": "📅",
+"title": "8-week plan",
+"subtitle": "Toward your goal"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/swim_coach-v1.0/swim_coach-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/swim_coach-v1.0/swim_coach-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/swim_coach.md",
+"kind": "factory",
+"icon_url": "icons/swim_coach.svg"
+},
+{
+"id": "symptom_prep",
+"name": "Doctor Prep",
+"tagline": "Walk into appointments prepared",
+"category": "Medical",
+"about": "Doctor Prep organises your symptoms into a clear timeline, prepares the questions to ask, explains test results in plain language and helps you understand medication instructions.",
+"colors": [
+"#00838F",
+"#FF7043",
+"#5E35B1"
+],
+"icon": "shield",
+"package": "com.mohithash.byok.symptomprep",
+"tools": [
+{
+"emoji": "📋",
+"title": "Symptom summary",
+"subtitle": "For the appointment"
+},
+{
+"emoji": "🧪",
+"title": "Explain my results",
+"subtitle": "Paste or photo"
+},
+{
+"emoji": "💊",
+"title": "Understand a medication",
+"subtitle": "How to take it"
+},
+{
+"emoji": "🩺",
+"title": "Prepare for a second opinion",
+"subtitle": "Or a specialist"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/symptom_prep-v1.0/symptom_prep-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/symptom_prep-v1.0/symptom_prep-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/symptom_prep.md",
+"kind": "factory",
+"icon_url": "icons/symptom_prep.svg"
+},
+{
+"id": "tax_tidy",
+"name": "Tax Tidy",
+"tagline": "Get organised for tax season",
+"category": "Finance",
+"about": "Tax Tidy builds document checklists for your situation, explains common deductions in general terms, and turns receipts into categorised expense logs.",
+"colors": [
+"#2E7D32",
+"#FFB300",
+"#5E35B1"
+],
+"icon": "note",
+"package": "com.mohithash.byok.taxtidy",
+"tools": [
+{
+"emoji": "📋",
+"title": "What do I need?",
+"subtitle": "Documents for filing"
+},
+{
+"emoji": "📷",
+"title": "Log a receipt",
+"subtitle": "Photo → expense entry"
+},
+{
+"emoji": "❓",
+"title": "Can I deduct this?",
+"subtitle": "General guidance"
+},
+{
+"emoji": "📊",
+"title": "Quarterly summary",
+"subtitle": "Paste transactions"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/tax_tidy-v1.0/tax_tidy-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/tax_tidy-v1.0/tax_tidy-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/tax_tidy.md",
+"kind": "factory",
+"icon_url": "icons/tax_tidy.svg"
+},
+{
+"id": "tea_master",
+"name": "Tea Master",
+"tagline": "Brew every tea to its best",
+"category": "Food & Drink",
+"about": "Tea Master gives exact brewing parameters, identifies teas from photos, pairs teas with moods and food, and builds a tasting practice.",
+"colors": [
+"#2E7D32",
+"#FFB300",
+"#8D6E63"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.teamaster",
+"tools": [
+{
+"emoji": "🍵",
+"title": "How do I brew this?",
+"subtitle": "Any tea"
+},
+{
+"emoji": "📷",
+"title": "Identify a tea",
+"subtitle": "Photo of leaves or packet"
+},
+{
+"emoji": "🧀",
+"title": "Pair with…",
+"subtitle": "Food or mood"
+},
+{
+"emoji": "👅",
+"title": "Tasting session",
+"subtitle": "Train your palate"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/tea_master-v1.0/tea_master-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/tea_master-v1.0/tea_master-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/tea_master.md",
+"kind": "factory",
+"icon_url": "icons/tea_master.svg"
+},
+{
+"id": "teen_talk",
+"name": "Teen Talk",
+"tagline": "Scripts for the hard conversations with your teenager",
+"category": "Parenting",
+"about": "Teen Talk helps parents open conversations about screens, school, friends, mental health and risk — with scripts, boundaries and what not to say.",
+"colors": [
+"#5E35B1",
+"#FF7043",
+"#26A69A"
+],
+"icon": "chat",
+"package": "com.mohithash.byok.teentalk",
+"tools": [
+{
+"emoji": "💬",
+"title": "Start a conversation",
+"subtitle": "Topic → opener + flow"
+},
+{
+"emoji": "📝",
+"title": "Family agreement",
+"subtitle": "Screens, curfews, chores"
+},
+{
+"emoji": "🔥",
+"title": "It's escalating",
+"subtitle": "Right now"
+},
+{
+"emoji": "🧠",
+"title": "Should I worry?",
+"subtitle": "Mood, behaviour changes"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/teen_talk-v1.0/teen_talk-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/teen_talk-v1.0/teen_talk-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/teen_talk.md",
+"kind": "factory",
+"icon_url": "icons/teen_talk.svg"
+},
+{
+"id": "tenant_rights",
+"name": "Rent Ready",
+"tagline": "Letters, checklists and know-how for renters",
+"category": "House & Home",
+"about": "Rent Ready writes letters to landlords, builds move-in/move-out inspection checklists, decodes lease clauses and explains deposit disputes in general terms.",
+"colors": [
+"#1565C0",
+"#FF8F00",
+"#43A047"
+],
+"icon": "home",
+"package": "com.mohithash.byok.tenantrights",
+"tools": [
+{
+"emoji": "✉️",
+"title": "Write to my landlord",
+"subtitle": "Repairs, deposit, notice"
+},
+{
+"emoji": "📋",
+"title": "Inspection checklist",
+"subtitle": "Move-in / move-out"
+},
+{
+"emoji": "🔍",
+"title": "Decode a clause",
+"subtitle": "Paste it"
+},
+{
+"emoji": "💰",
+"title": "Deposit dispute",
+"subtitle": "Get it back"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/tenant_rights-v1.0/tenant_rights-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/tenant_rights-v1.0/tenant_rights-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/tenant_rights.md",
+"kind": "factory",
+"icon_url": "icons/tenant_rights.svg"
+},
+{
+"id": "trivia_master",
+"name": "Quiz Host",
+"tagline": "Pub quizzes and trivia nights in minutes",
+"category": "Games",
+"about": "Quiz Host writes themed quiz rounds with answers, picture-round ideas, tie-breakers and host scripts.",
+"colors": [
+"#C62828",
+"#FFB300",
+"#1565C0"
+],
+"icon": "star",
+"package": "com.mohithash.byok.triviamaster",
+"tools": [
+{
+"emoji": "❓",
+"title": "Write a round",
+"subtitle": "10 questions"
+},
+{
+"emoji": "🏆",
+"title": "Full quiz",
+"subtitle": "6 rounds"
+},
+{
+"emoji": "⚖️",
+"title": "Tie-breakers",
+"subtitle": "Closest-number style"
+},
+{
+"emoji": "🎤",
+"title": "Host script",
+"subtitle": "Welcome, rules, banter"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/trivia_master-v1.0/trivia_master-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/trivia_master-v1.0/trivia_master-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/trivia_master.md",
+"kind": "factory",
+"icon_url": "icons/trivia_master.svg"
+},
+{
+"id": "volunteer_match",
+"name": "Do Good",
+"tagline": "Find and plan volunteering that fits your life",
+"category": "Social",
+"about": "Do Good matches your skills to volunteering ideas, plans fundraisers and drafts outreach to organisations.",
+"colors": [
+"#00897B",
+"#FF7043",
+"#5E35B1"
+],
+"icon": "heart",
+"package": "com.mohithash.byok.volunteermatch",
+"tools": [
+{
+"emoji": "🤝",
+"title": "Match me",
+"subtitle": "Ideas for your profile"
+},
+{
+"emoji": "🎯",
+"title": "Plan a fundraiser",
+"subtitle": "From bake sale to 10k"
+},
+{
+"emoji": "✉️",
+"title": "Write to an organisation",
+"subtitle": "Offer your help"
+},
+{
+"emoji": "🌱",
+"title": "Reflect",
+"subtitle": "Make it sustainable"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/volunteer_match-v1.0/volunteer_match-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/volunteer_match-v1.0/volunteer_match-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/volunteer_match.md",
+"kind": "factory",
+"icon_url": "icons/volunteer_match.svg"
+},
+{
+"id": "wedding_wiz",
+"name": "Wedding Wiz",
+"tagline": "Plan the day without losing your mind",
+"category": "Lifestyle",
+"about": "Wedding Wiz builds timelines, budgets, vendor questions, seating plans and speeches, from proposal to last dance.",
+"colors": [
+"#8E24AA",
+"#F9A825",
+"#26A69A"
+],
+"icon": "ring",
+"package": "com.mohithash.byok.weddingwiz",
+"tools": [
+{
+"emoji": "📅",
+"title": "Planning timeline",
+"subtitle": "From now to the day"
+},
+{
+"emoji": "💰",
+"title": "Allocate the budget",
+"subtitle": "Where the money goes"
+},
+{
+"emoji": "📋",
+"title": "Vendor questions",
+"subtitle": "Don't get burned"
+},
+{
+"emoji": "🎤",
+"title": "Write a speech",
+"subtitle": "Vows, best man, parent"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/wedding_wiz-v1.0/wedding_wiz-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/wedding_wiz-v1.0/wedding_wiz-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/wedding_wiz.md",
+"kind": "factory",
+"icon_url": "icons/wedding_wiz.svg"
+},
+{
+"id": "wine_food_veg",
+"name": "Veg Forward",
+"tagline": "Delicious plant-based meals, no lectures",
+"category": "Food & Drink",
+"about": "Veg Forward builds plant-based meals with complete protein, veganises your favourites, and plans balanced weeks.",
+"colors": [
+"#2E7D32",
+"#FF7043",
+"#FFB300"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.winefoodveg",
+"tools": [
+{
+"emoji": "🌱",
+"title": "Veganise this",
+"subtitle": "Any dish"
+},
+{
+"emoji": "💪",
+"title": "Protein-complete meal",
+"subtitle": "Hit 30g"
+},
+{
+"emoji": "🗓️",
+"title": "Weekly plan",
+"subtitle": "Balanced and cheap"
+},
+{
+"emoji": "🍽️",
+"title": "Eating out",
+"subtitle": "Find options anywhere"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/wine_food_veg-v1.0/wine_food_veg-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/wine_food_veg-v1.0/wine_food_veg-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/wine_food_veg.md",
+"kind": "factory",
+"icon_url": "icons/wine_food_veg.svg"
+},
+{
+"id": "yoga_flow",
+"name": "Flow Builder",
+"tagline": "Yoga sequences for how you feel right now",
+"category": "Health & Fitness",
+"about": "Flow Builder writes yoga and mobility sequences for your time, level and mood, with cues, modifications and a breathing practice to match.",
+"colors": [
+"#7E57C2",
+"#26A69A",
+"#FFB74D"
+],
+"icon": "sun",
+"package": "com.mohithash.byok.yogaflow",
+"tools": [
+{
+"emoji": "🧘",
+"title": "Build a flow",
+"subtitle": "Tell me time + mood"
+},
+{
+"emoji": "📷",
+"title": "Fix a pose",
+"subtitle": "Photo or description"
+},
+{
+"emoji": "🌬️",
+"title": "Breathwork",
+"subtitle": "5 minutes to shift state"
+},
+{
+"emoji": "📅",
+"title": "7-day challenge",
+"subtitle": "A week of short practices"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/yoga_flow-v1.0/yoga_flow-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/yoga_flow-v1.0/yoga_flow-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/yoga_flow.md",
+"kind": "factory",
+"icon_url": "icons/yoga_flow.svg"
+}
+]
+}

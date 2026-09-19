@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BYOK Store</title>
+<meta name="description" content="115 bring-your-own-key AI Android apps. Your key, your phone, no accounts.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 108'%3E%3Crect width='108' height='108' rx='26' fill='%231B5E4A'/%3E%3Cpath fill='%23FFF4E1' d='M54 24l8 19 19 8-19 8-8 19-8-19-19-8 19-8z'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#F8F6F0;--fg:#1B1B18;--muted:#5F6561;--card:#FFFFFF;--line:#E4E1D8;--accent:#1B5E4A;--accent-fg:#FFFFFF;--chip:#ECE9E1;--chip-on:#1B5E4A;--shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(20,40,30,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111311;--fg:#ECEAE3;--muted:#9AA39D;--card:#1B1E1B;--line:#2A2E2A;--accent:#8DD6BD;--accent-fg:#003828;--chip:#242824;--chip-on:#8DD6BD;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}}
+:root[data-theme="dark"]{--bg:#111311;--fg:#ECEAE3;--muted:#9AA39D;--card:#1B1E1B;--line:#2A2E2A;--accent:#8DD6BD;--accent-fg:#003828;--chip:#242824;--chip-on:#8DD6BD;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{padding:40px 0 20px}
+h1{font-size:clamp(28px,5vw,44px);letter-spacing:-.02em;margin:0 0 6px;font-weight:800}
+.sub{color:var(--muted);margin:0 0 22px;max-width:680px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5}
+.search{flex:1 1 260px;display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:10px 16px}
+.search input{flex:1;border:0;outline:0;background:transparent;color:var(--fg);font-size:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:6px 0 10px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:7px 14px;font-size:14px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--chip-on);color:var(--accent-fg);border-color:transparent}
+.count{color:var(--muted);font-size:14px;margin:6px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;padding-bottom:60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:16px;display:flex;gap:14px;cursor:pointer;box-shadow:var(--shadow);transition:transform .15s}
+.card:hover{transform:translateY(-2px)}
+.card img{width:64px;height:64px;border-radius:18px;flex:0 0 64px}
+.card h3{margin:0 0 2px;font-size:17px;letter-spacing:-.01em}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.tag{display:inline-block;margin-top:8px;font-size:12px;color:var(--accent);font-weight:600}
+.badge{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted);margin-left:6px;vertical-align:middle}
+dialog{border:0;border-radius:28px;padding:0;max-width:640px;width:calc(100% - 32px);background:var(--card);color:var(--fg);box-shadow:var(--shadow)}
+dialog::backdrop{background:rgba(0,0,0,.45);backdrop-filter:blur(4px)}
+.dhead{display:flex;gap:16px;padding:22px 22px 0;align-items:center}
+.dhead img{width:84px;height:84px;border-radius:22px}
+.dbody{padding:16px 22px 22px}
+.tools{list-style:none;padding:0;margin:14px 0}
+.tools li{padding:10px 12px;border:1px solid var(--line);border-radius:14px;margin-bottom:8px;display:flex;gap:10px}
+.tools li span:first-child{font-size:20px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.btn{border:0;border-radius:999px;padding:12px 18px;font-weight:700;cursor:pointer;text-decoration:none;font-size:15px}
+.primary{background:var(--accent);color:var(--accent-fg)}
+.ghost{background:var(--chip);color:var(--fg)}
+.close{position:absolute;right:14px;top:14px;border:0;background:var(--chip);color:var(--fg);width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:18px}
+.note{background:var(--chip);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--muted);margin-top:14px}
+footer{color:var(--muted);font-size:13px;padding:30px 0 50px;border-top:1px solid var(--line)}
+kbd{font-family:ui-monospace,monospace;background:var(--chip);padding:1px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>BYOK Store</h1>
+  <p class="sub"><strong>115 apps.</strong> Bring your own AI key (Claude or any OpenAI‑compatible endpoint). No accounts, no ads, no analytics — your data stays on your phone and goes only to the provider you chose.</p>
+  <div class="bar">
+    <label class="search"><span aria-hidden="true">🔍</span><input id="q" type="search" placeholder="Search apps, tools, categories…" autocomplete="off"></label>
+    <button class="chip" id="theme" title="Toggle theme">◐</button>
+  </div>
+  <div class="chips" id="cats"></div>
+  <div class="count" id="count"></div>
+</header>
+<main class="grid" id="grid"></main>
+<footer>
+  Every app is signed and shipped as APK (sideload) and AAB (Play). Sideloading: download the APK, open it, allow installs from your browser when asked. Source and store listings are on GitHub. <br>
+  Privacy: <a href="https://github.com/Mohithash/byok-factory/blob/main/PRIVACY.md">policy</a>. Built with Jetpack Compose &amp; Material 3 Expressive.
+</footer>
+</div>
+<dialog id="dlg"><button class="close" id="close" aria-label="Close">×</button><div id="dcontent"></div></dialog>
+<script>
+const CATS = ["Auto & Vehicles", "Beauty", "Books & Reference", "Business", "Communication", "Dating", "Education", "Finance", "Food & Drink", "Games", "Health & Fitness", "Hobbies", "House & Home", "Lifestyle", "Medical", "Music & Audio", "Parenting", "Photography", "Productivity", "Shopping", "Social", "Sports", "Tools", "Travel & Local"];
+let apps = [], cat = 'All', q = '';
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function renderChips(){ const el=$('#cats'); el.innerHTML=''; ['All',...CATS].forEach(c=>{const b=document.createElement('button'); b.className='chip'; b.textContent=c; b.setAttribute('aria-pressed', c===cat); b.onclick=()=>{cat=c; renderChips(); render();}; el.appendChild(b);}); }
+function match(a){ if(cat!=='All' && a.category!==cat) return false; if(!q) return true; const h=(a.name+' '+a.tagline+' '+a.category+' '+a.about+' '+a.tools.map(t=>t.title+' '+t.subtitle).join(' ')).toLowerCase(); return q.split(/\s+/).every(w=>h.includes(w)); }
+function render(){ const list=apps.filter(match); $('#count').textContent=`${list.length} of ${apps.length} apps${cat!=='All'?' · '+cat:''}`; const g=$('#grid'); g.innerHTML=''; const frag=document.createDocumentFragment(); list.forEach(a=>{const c=document.createElement('article'); c.className='card'; c.tabIndex=0; c.innerHTML=`<img src="${a.icon_url}" alt="" loading="lazy"><div><h3>${esc(a.name)}${a.kind==='bespoke'?'<span class="badge">hand‑built</span>':''}</h3><p>${esc(a.tagline)}</p><span class="tag">${esc(a.category)}</span></div>`; c.onclick=()=>open(a); c.onkeydown=e=>{if(e.key==='Enter')open(a)}; frag.appendChild(c);}); g.appendChild(frag); }
+function open(a){ $('#dcontent').innerHTML=`<div class="dhead"><img src="${a.icon_url}" alt=""><div><h2 style="margin:0 0 4px;letter-spacing:-.01em">${esc(a.name)}</h2><div style="color:var(--muted)">${esc(a.tagline)}</div><div class="tag">${esc(a.category)}</div></div></div><div class="dbody"><p>${esc(a.about)}</p>${a.tools.length?`<ul class="tools">${a.tools.map(t=>`<li><span>${t.emoji}</span><span><strong>${esc(t.title)}</strong><br><span style="color:var(--muted);font-size:14px">${esc(t.subtitle)}</span></span></li>`).join('')}</ul>`:''}<div class="btns"><a class="btn primary" href="${a.apk}">Download APK</a><a class="btn ghost" href="${a.aab}">AAB</a><a class="btn ghost" href="${a.listing}" target="_blank" rel="noopener">Listing</a><a class="btn ghost" href="${a.source}" target="_blank" rel="noopener">Source</a></div><div class="note">Package <kbd>${esc(a.package)}</kbd> · Signed release · Add your API key in the app's Settings after install.</div></div>`; $('#dlg').showModal(); history.replaceState(null,'','#'+a.id); }
+$('#close').onclick=()=>$('#dlg').close();
+$('#dlg').addEventListener('click',e=>{ if(e.target===$('#dlg')) $('#dlg').close(); });
+$('#q').addEventListener('input',e=>{ q=e.target.value.trim().toLowerCase(); render(); });
+$('#theme').onclick=()=>{ const r=document.documentElement; const cur=r.getAttribute('data-theme'); const next=cur==='dark'?'light':(cur==='light'?null:'dark'); if(next) r.setAttribute('data-theme',next); else r.removeAttribute('data-theme'); try{localStorage.setItem('theme',next||'')}catch(e){} };
+try{ const t=localStorage.getItem('theme'); if(t) document.documentElement.setAttribute('data-theme',t);}catch(e){}
+fetch('catalog.json').then(r=>r.json()).then(d=>{ apps=d.apps; renderChips(); render(); const h=location.hash.slice(1); const a=apps.find(x=>x.id===h); if(a) open(a); });
+</script>
+</body>
+</html>
