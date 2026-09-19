@@ -4949,7 +4949,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/clearout_cash.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/clearout_cash.svg"
 },
 {
@@ -5798,7 +5798,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/compose_kit.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/compose_kit.svg"
 },
 {
@@ -8282,7 +8282,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/escape_architect.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/escape_architect.svg"
 },
 {
@@ -8421,7 +8421,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/ethos_invest.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/ethos_invest.svg"
 },
 {
@@ -11357,7 +11357,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/grid_setter.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/grid_setter.svg"
 },
 {
@@ -17841,7 +17841,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/overlap_hours.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/overlap_hours.svg"
 },
 {
@@ -18839,7 +18839,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/plain_speak.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/plain_speak.svg"
 },
 {
@@ -21012,7 +21012,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/review_writer.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/review_writer.svg"
 },
 {
@@ -26864,7 +26864,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/trade_ticket.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/trade_ticket.svg"
 },
 {
@@ -28433,7 +28433,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/windfall_plan.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/windfall_plan.svg"
 },
 {
