@@ -848,7 +848,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/api_docs.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/api_docs.svg"
 },
 {
@@ -2076,7 +2076,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/big_o_buddy.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/big_o_buddy.svg"
 },
 {
@@ -3918,7 +3918,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/campus_abroad.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/campus_abroad.svg"
 },
 {
@@ -8886,7 +8886,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/expat_partner.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/expat_partner.svg"
 },
 {
@@ -10124,7 +10124,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/free_body.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/free_body.svg"
 },
 {
@@ -12810,7 +12810,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/import_desk.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/import_desk.svg"
 },
 {
@@ -14541,7 +14541,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/latch_lab.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/latch_lab.svg"
 },
 {
@@ -18599,7 +18599,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/pilgrim_prep.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/pilgrim_prep.svg"
 },
 {
@@ -20350,7 +20350,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/red_tape.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/red_tape.svg"
 },
 {
@@ -22005,7 +22005,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/scoop_lab.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/scoop_lab.svg"
 },
 {
@@ -23703,7 +23703,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/soothe_kit.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/soothe_kit.svg"
 },
 {
@@ -24168,7 +24168,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/stall_day.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/stall_day.svg"
 },
 {
@@ -27243,7 +27243,7 @@
 "source": "https://github.com/Mohithash/byok-factory",
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/under_the_hood.md",
 "kind": "factory",
-"released": false,
+"released": true,
 "icon_url": "icons/under_the_hood.svg"
 },
 {
