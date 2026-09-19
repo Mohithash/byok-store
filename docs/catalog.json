@@ -1,6 +1,6 @@
 {
 "generated": "2026-09-19",
-"count": 115,
+"count": 135,
 "categories": [
 "Auto & Vehicles",
 "Beauty",
@@ -533,6 +533,53 @@
 "icon_url": "icons/baby_days.svg"
 },
 {
+"id": "bake_sale_boss",
+"name": "Bake Sale Boss",
+"tagline": "Price, plan and sell your home bakes",
+"category": "Food & Drink",
+"about": "Bake Sale Boss prices every bake from ingredients, time and overheads, plans market menus and order books, drafts allergen labels and writes the quotes and posts that win customers.",
+"colors": [
+"#2E7D32",
+"#F9A825",
+"#C62828"
+],
+"icon": "coin",
+"package": "com.mohithash.byok.bakesaleboss",
+"tools": [
+{
+"emoji": "💰",
+"title": "Price a bake",
+"subtitle": "Ingredients + time + overhead → price"
+},
+{
+"emoji": "🛒",
+"title": "Plan a market",
+"subtitle": "What to bake, how much, what to charge"
+},
+{
+"emoji": "🏷️",
+"title": "Allergen label",
+"subtitle": "Ingredient and allergen declaration"
+},
+{
+"emoji": "💬",
+"title": "Customer quote & reply",
+"subtitle": "Answer an enquiry with a clear quote"
+},
+{
+"emoji": "📣",
+"title": "Sell it online",
+"subtitle": "Posts and captions for a bake"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/bake_sale_boss-v1.0/bake_sale_boss-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/bake_sale_boss-v1.0/bake_sale_boss-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/bake_sale_boss.md",
+"kind": "factory",
+"icon_url": "icons/bake_sale_boss.svg"
+},
+{
 "id": "barista_home",
 "name": "Home Barista",
 "tagline": "Dial in café-quality coffee at home",
@@ -869,6 +916,53 @@
 "icon_url": "icons/budget_buddy.svg"
 },
 {
+"id": "cake_canvas",
+"name": "Cake Canvas",
+"tagline": "Design, size and decorate cakes like a pro",
+"category": "Food & Drink",
+"about": "Cake Canvas turns an occasion into a full cake design brief, sizes tiers for your guest count, mixes exact buttercream colours and critiques your decorating from a photo.",
+"colors": [
+"#EC407A",
+"#7E57C2",
+"#FFD54F"
+],
+"icon": "hat",
+"package": "com.mohithash.byok.cakecanvas",
+"tools": [
+{
+"emoji": "🎂",
+"title": "Design my cake",
+"subtitle": "Occasion → full concept"
+},
+{
+"emoji": "📐",
+"title": "Servings & pan math",
+"subtitle": "Tiers, batter, dowels"
+},
+{
+"emoji": "🎨",
+"title": "Mix a colour",
+"subtitle": "Gel drops for any shade"
+},
+{
+"emoji": "📷",
+"title": "Critique my cake",
+"subtitle": "Photo → what to fix next time"
+},
+{
+"emoji": "⏰",
+"title": "Bake-day timeline",
+"subtitle": "Backwards plan from the deadline"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/cake_canvas-v1.0/cake_canvas-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/cake_canvas-v1.0/cake_canvas-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/cake_canvas.md",
+"kind": "factory",
+"icon_url": "icons/cake_canvas.svg"
+},
+{
 "id": "car_buyer",
 "name": "Car Sense",
 "tagline": "Buy, sell and maintain a car without getting fleeced",
@@ -1203,6 +1297,95 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/code_tutor.md",
 "kind": "factory",
 "icon_url": "icons/code_tutor.svg"
+},
+{
+"id": "cookie_studio",
+"name": "Cookie Studio",
+"tagline": "Decorated cookies from icing to gift box",
+"category": "Food & Drink",
+"about": "Cookie Studio plans decorated cookie sets for any occasion, gives royal icing consistencies in seconds and grams, schedules decorating days for orders and diagnoses cratering, bleeding and spread from a photo.",
+"colors": [
+"#1E88E5",
+"#FF7043",
+"#43A047"
+],
+"icon": "gift",
+"package": "com.mohithash.byok.cookiestudio",
+"tools": [
+{
+"emoji": "🍪",
+"title": "Design a set",
+"subtitle": "Occasion → cookie designs"
+},
+{
+"emoji": "💧",
+"title": "Icing consistencies",
+"subtitle": "Grams and seconds per job"
+},
+{
+"emoji": "📅",
+"title": "Schedule an order",
+"subtitle": "Bake, flood, detail, pack"
+},
+{
+"emoji": "📷",
+"title": "Fix a fault",
+"subtitle": "Photo of cratered, bled or spread cookies"
+},
+{
+"emoji": "🔲",
+"title": "Dough that holds its shape",
+"subtitle": "No-spread recipes per cutter"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/cookie_studio-v1.0/cookie_studio-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/cookie_studio-v1.0/cookie_studio-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/cookie_studio.md",
+"kind": "factory",
+"icon_url": "icons/cookie_studio.svg"
+},
+{
+"id": "crust_craft",
+"name": "Crust Craft",
+"tagline": "Pies and tarts with crisp bottoms and clean slices",
+"category": "Food & Drink",
+"about": "Crust Craft picks the right pastry for the pie, calculates fruit-filling thickener for clean slices, plans lattice and decorative tops, and diagnoses soggy bottoms and shrinking shells from a photo.",
+"colors": [
+"#C68E17",
+"#8E24AA",
+"#2E7D32"
+],
+"icon": "sun",
+"package": "com.mohithash.byok.crustcraft",
+"tools": [
+{
+"emoji": "🥧",
+"title": "Pick the pastry",
+"subtitle": "Right dough for the filling"
+},
+{
+"emoji": "🍓",
+"title": "Thicken the filling",
+"subtitle": "Starch grams per fruit and tin"
+},
+{
+"emoji": "🎨",
+"title": "Design the top",
+"subtitle": "Lattice, cut-outs, braids"
+},
+{
+"emoji": "📷",
+"title": "Soggy? Shrunk? Cracked?",
+"subtitle": "Photo of a slice or shell"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/crust_craft-v1.0/crust_craft-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/crust_craft-v1.0/crust_craft-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/crust_craft.md",
+"kind": "factory",
+"icon_url": "icons/crust_craft.svg"
 },
 {
 "id": "crypto_clarity",
@@ -1709,6 +1892,53 @@
 "icon_url": "icons/essay_coach.svg"
 },
 {
+"id": "ethiopian_injera",
+"name": "Injera House",
+"tagline": "Ethiopian and Eritrean cooking, from teff to coffee",
+"category": "Food & Drink",
+"about": "Injera House guides Ethiopian and Eritrean home cooking: injera batter fermented right, wots and tibs by the pot, berbere and niter kibbeh made at home, beyaynetu platters for fasting or feasts, and the coffee ceremony step by step.",
+"colors": [
+"#3E2723",
+"#F9A825",
+"#C62828"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.ethiopianinjera",
+"tools": [
+{
+"emoji": "🫓",
+"title": "Injera batter",
+"subtitle": "Fermentation plan for your kitchen"
+},
+{
+"emoji": "🍲",
+"title": "Wot & tibs builder",
+"subtitle": "Doro, misir, shiro, gomen, tibs"
+},
+{
+"emoji": "🌶️",
+"title": "Berbere & niter kibbeh",
+"subtitle": "The spice blends and spiced butter"
+},
+{
+"emoji": "🍽️",
+"title": "Beyaynetu platter",
+"subtitle": "A shared platter for fasting days or feasts"
+},
+{
+"emoji": "☕",
+"title": "Coffee ceremony",
+"subtitle": "Buna from green beans, with etiquette"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/ethiopian_injera-v1.0/ethiopian_injera-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/ethiopian_injera-v1.0/ethiopian_injera-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/ethiopian_injera.md",
+"kind": "factory",
+"icon_url": "icons/ethiopian_injera.svg"
+},
+{
 "id": "etsy_seller",
 "name": "Maker Shop",
 "tagline": "Sell your handmade goods online",
@@ -1917,6 +2147,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/focus_sprint.md",
 "kind": "factory",
 "icon_url": "icons/focus_sprint.svg"
+},
+{
+"id": "free_from_baker",
+"name": "Free-From Baker",
+"tagline": "Gluten-free, vegan and egg-free bakes that work",
+"category": "Food & Drink",
+"about": "Free-From Baker converts any recipe to gluten-free, dairy-free, egg-free or vegan with the right binders and blends, builds custom flour blends, picks egg replacers by job and fixes gummy or crumbly results.",
+"colors": [
+"#558B2F",
+"#FB8C00",
+"#0097A7"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.freefrombaker",
+"tools": [
+{
+"emoji": "🔁",
+"title": "Convert a recipe",
+"subtitle": "Paste it, get the free-from version"
+},
+{
+"emoji": "🌾",
+"title": "Build a flour blend",
+"subtitle": "A blend for cakes, cookies or pastry"
+},
+{
+"emoji": "🥚",
+"title": "Pick an egg replacer",
+"subtitle": "By what the egg was doing"
+},
+{
+"emoji": "🛠️",
+"title": "Fix a free-from fail",
+"subtitle": "Gummy, crumbly, dense or dry"
+},
+{
+"emoji": "⭐",
+"title": "Free-from classic",
+"subtitle": "A reliable recipe for a favourite"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/free_from_baker-v1.0/free_from_baker-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/free_from_baker-v1.0/free_from_baker-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/free_from_baker.md",
+"kind": "factory",
+"icon_url": "icons/free_from_baker.svg"
 },
 {
 "id": "garden_planner",
@@ -2339,6 +2616,53 @@
 "icon_url": "icons/hydrate_hub.svg"
 },
 {
+"id": "indian_tadka",
+"name": "Tadka Kitchen",
+"tagline": "Regional Indian home cooking, spice by spice",
+"category": "Food & Drink",
+"about": "Tadka Kitchen teaches real regional Indian home cooking: curries and dals from what you have, a masala dabba built for how you cook, thali planning, flatbread coaching and fixes for a curry that went wrong.",
+"colors": [
+"#E65100",
+"#FFB300",
+"#1B5E20"
+],
+"icon": "flame",
+"package": "com.mohithash.byok.indiantadka",
+"tools": [
+{
+"emoji": "🍛",
+"title": "Cook a curry or dal",
+"subtitle": "Regional dish from your main ingredient"
+},
+{
+"emoji": "🧂",
+"title": "Build my masala dabba",
+"subtitle": "The 7 spices for your cooking + the next 10"
+},
+{
+"emoji": "🍽️",
+"title": "Plan a thali",
+"subtitle": "A balanced plate for guests or a Sunday"
+},
+{
+"emoji": "🩹",
+"title": "Fix my curry",
+"subtitle": "Bland, watery, raw-spice or too hot"
+},
+{
+"emoji": "🫓",
+"title": "Flatbread coach",
+"subtitle": "Roti, naan, paratha, dosa, bhatura"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/indian_tadka-v1.0/indian_tadka-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/indian_tadka-v1.0/indian_tadka-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/indian_tadka.md",
+"kind": "factory",
+"icon_url": "icons/indian_tadka.svg"
+},
+{
 "id": "intermittent_fast",
 "name": "Fast Track",
 "tagline": "Intermittent fasting, made sustainable",
@@ -2507,6 +2831,100 @@
 "icon_url": "icons/invoice_ninja_lite.svg"
 },
 {
+"id": "italian_nonna",
+"name": "Nonna's Table",
+"tagline": "Regional Italian cooking, one pasta at a time",
+"category": "Food & Drink",
+"about": "Nonna's Table matches pasta shapes to sauces, teaches fresh pasta and risotto with gram ratios, tours regional Italian dishes you can make abroad and plans an aperitivo hour.",
+"colors": [
+"#2E7D32",
+"#C62828",
+"#FDD835"
+],
+"icon": "hat",
+"package": "com.mohithash.byok.italiannonna",
+"tools": [
+{
+"emoji": "🍝",
+"title": "Pasta match",
+"subtitle": "Right shape, right sauce, right technique"
+},
+{
+"emoji": "🥚",
+"title": "Fresh pasta dough",
+"subtitle": "Egg, semolina, filled or gnocchi"
+},
+{
+"emoji": "🍚",
+"title": "Risotto tonight",
+"subtitle": "Timed method around a star ingredient"
+},
+{
+"emoji": "🗺️",
+"title": "Regional tour",
+"subtitle": "Dishes from one region you can make at home"
+},
+{
+"emoji": "🍹",
+"title": "Aperitivo hour",
+"subtitle": "Drinks and stuzzichini for a crowd"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/italian_nonna-v1.0/italian_nonna-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/italian_nonna-v1.0/italian_nonna-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/italian_nonna.md",
+"kind": "factory",
+"icon_url": "icons/italian_nonna.svg"
+},
+{
+"id": "japanese_washoku",
+"name": "Washoku Home",
+"tagline": "Dashi, bento, ramen and sushi in a home kitchen",
+"category": "Food & Drink",
+"about": "Washoku Home makes everyday Japanese cooking approachable: dashi and miso soup, weeknight ramen bowls, safe sushi at home, next-day bento from leftovers and a label decoder for the Japanese grocery aisle.",
+"colors": [
+"#B0413E",
+"#263238",
+"#7CB342"
+],
+"icon": "drop",
+"package": "com.mohithash.byok.japanesewashoku",
+"tools": [
+{
+"emoji": "🍲",
+"title": "Dashi & miso soup",
+"subtitle": "The base of everything, then 3 soups"
+},
+{
+"emoji": "🍣",
+"title": "Sushi at home",
+"subtitle": "Rice, vinegar mix, and what fish is safe"
+},
+{
+"emoji": "🍜",
+"title": "Ramen bowl builder",
+"subtitle": "Weeknight or weekend project"
+},
+{
+"emoji": "📷",
+"title": "Decode a Japanese label",
+"subtitle": "Photo → what it is and how to use it"
+},
+{
+"emoji": "🍱",
+"title": "Bento from leftovers",
+"subtitle": "Tomorrow's box from tonight's dinner"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/japanese_washoku-v1.0/japanese_washoku-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/japanese_washoku-v1.0/japanese_washoku-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/japanese_washoku.md",
+"kind": "factory",
+"icon_url": "icons/japanese_washoku.svg"
+},
+{
 "id": "keto_kitchen",
 "name": "Keto Kitchen",
 "tagline": "Low-carb meals that don't feel like a diet",
@@ -2633,6 +3051,95 @@
 "icon_url": "icons/kids_tutor.svg"
 },
 {
+"id": "korean_banchan",
+"name": "Banchan Box",
+"tagline": "Kimchi, banchan, jjigae and K-BBQ at home",
+"category": "Food & Drink",
+"about": "Banchan Box is a Korean home-cooking companion: kimchi and quick pickles with fermentation timelines, banchan sets around any main, jjigae from the fridge, Korean BBQ nights without a restaurant, and a decoder for the Korean grocery aisle.",
+"colors": [
+"#D32F2F",
+"#0D47A1",
+"#FFA000"
+],
+"icon": "star",
+"package": "com.mohithash.byok.koreanbanchan",
+"tools": [
+{
+"emoji": "🥬",
+"title": "Kimchi lab",
+"subtitle": "Napa, radish, cucumber or vegan — with a timeline"
+},
+{
+"emoji": "🍱",
+"title": "Banchan set",
+"subtitle": "Side dishes that suit your main"
+},
+{
+"emoji": "🍲",
+"title": "Jjigae from the fridge",
+"subtitle": "Stew or soup from what you have"
+},
+{
+"emoji": "🔥",
+"title": "K-BBQ at home",
+"subtitle": "Marinades, cuts and ssam for your gear"
+},
+{
+"emoji": "📷",
+"title": "Decode the Korean aisle",
+"subtitle": "Photo of a product → what it is"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/korean_banchan-v1.0/korean_banchan-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/korean_banchan-v1.0/korean_banchan-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/korean_banchan.md",
+"kind": "factory",
+"icon_url": "icons/korean_banchan.svg"
+},
+{
+"id": "laminate_lab",
+"name": "Lamination Lab",
+"tagline": "Croissants, puff and danish that actually flake",
+"category": "Food & Drink",
+"about": "Lamination Lab schedules croissant, puff and danish bakes around your day, sizes butter blocks and folds for any quantity, and diagnoses leaked butter or dense layers from a photo.",
+"colors": [
+"#EF6C00",
+"#1E88E5",
+"#8D6E63"
+],
+"icon": "clock",
+"package": "com.mohithash.byok.laminatelab",
+"tools": [
+{
+"emoji": "🕒",
+"title": "Plan the bake",
+"subtitle": "Backwards from when you want them"
+},
+{
+"emoji": "📏",
+"title": "Butter block & folds",
+"subtitle": "Sizes and fold count for any batch"
+},
+{
+"emoji": "📷",
+"title": "Why didn't it flake?",
+"subtitle": "Photo of the cross-section"
+},
+{
+"emoji": "🥐",
+"title": "Shapes & fillings",
+"subtitle": "Turn one dough into a box of pastries"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/laminate_lab-v1.0/laminate_lab-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/laminate_lab-v1.0/laminate_lab-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/laminate_lab.md",
+"kind": "factory",
+"icon_url": "icons/laminate_lab.svg"
+},
+{
 "id": "landlord_lite",
 "name": "Landlord Desk",
 "tagline": "Manage a rental without the headaches",
@@ -2673,6 +3180,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/landlord_lite.md",
 "kind": "factory",
 "icon_url": "icons/landlord_lite.svg"
+},
+{
+"id": "levant_mezze",
+"name": "Mezze Table",
+"tagline": "Levantine and Middle Eastern cooking, feast to weeknight",
+"category": "Food & Drink",
+"about": "Mezze Table plans Levantine and wider Middle Eastern spreads: mezze for a crowd, hummus that's actually smooth, kebabs and skewers with proper marinades, home-ground spice blends and iftar or holiday menus with a timeline.",
+"colors": [
+"#00695C",
+"#F57F17",
+"#6D4C41"
+],
+"icon": "leaf",
+"package": "com.mohithash.byok.levantmezze",
+"tools": [
+{
+"emoji": "🥙",
+"title": "Mezze spread",
+"subtitle": "Cold and hot mezze for a crowd"
+},
+{
+"emoji": "🫘",
+"title": "Hummus perfectionist",
+"subtitle": "Silky, from dried or canned"
+},
+{
+"emoji": "🍢",
+"title": "Kebabs & skewers",
+"subtitle": "Marinades, shaping and grilling"
+},
+{
+"emoji": "🌿",
+"title": "Grind a spice blend",
+"subtitle": "Za'atar, baharat, seven-spice, dukkah"
+},
+{
+"emoji": "🌙",
+"title": "Iftar & feast planner",
+"subtitle": "Ramadan, Eid or a big family Sunday"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/levant_mezze-v1.0/levant_mezze-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/levant_mezze-v1.0/levant_mezze-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/levant_mezze.md",
+"kind": "factory",
+"icon_url": "icons/levant_mezze.svg"
 },
 {
 "id": "lingo_flash",
@@ -2757,6 +3311,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/linkedin_lift.md",
 "kind": "factory",
 "icon_url": "icons/linkedin_lift.svg"
+},
+{
+"id": "macaron_method",
+"name": "Macaron Method",
+"tagline": "Full feet, smooth tops, no hollows",
+"category": "Food & Drink",
+"about": "Macaron Method gives you a weighed recipe for the exact shell count you need in French, Italian or Swiss method, plans flavour and colour sets, and diagnoses cracked, hollow or footless shells from a photo.",
+"colors": [
+"#26A69A",
+"#F06292",
+"#BA68C8"
+],
+"icon": "spark",
+"package": "com.mohithash.byok.macaronmethod",
+"tools": [
+{
+"emoji": "⚖️",
+"title": "Recipe for N shells",
+"subtitle": "Scaled, weighed, method-specific"
+},
+{
+"emoji": "📷",
+"title": "Troubleshoot shells",
+"subtitle": "Photo → cause and fix"
+},
+{
+"emoji": "🎁",
+"title": "Design a box",
+"subtitle": "Flavour and colour set for an occasion"
+},
+{
+"emoji": "🥄",
+"title": "Filling formulas",
+"subtitle": "Ganache, buttercream, curd, jam"
+},
+{
+"emoji": "🔥",
+"title": "Oven test plan",
+"subtitle": "Dial in temperature and time"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/macaron_method-v1.0/macaron_method-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/macaron_method-v1.0/macaron_method-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/macaron_method.md",
+"kind": "factory",
+"icon_url": "icons/macaron_method.svg"
 },
 {
 "id": "marathon_nutrition",
@@ -2925,6 +3526,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/meeting_mate.md",
 "kind": "factory",
 "icon_url": "icons/meeting_mate.svg"
+},
+{
+"id": "mexican_comal",
+"name": "Comal",
+"tagline": "Salsas, tacos, tortillas and mole done properly",
+"category": "Food & Drink",
+"about": "Comal is a Mexican home-cooking companion: salsas from the chiles you can find, regional taco nights, nixtamal and flour tortillas from scratch, chile identification from a photo, and big-batch mole you can freeze.",
+"colors": [
+"#B71C1C",
+"#00897B",
+"#FBC02D"
+],
+"icon": "sun",
+"package": "com.mohithash.byok.mexicancomal",
+"tools": [
+{
+"emoji": "🌶️",
+"title": "Salsa builder",
+"subtitle": "Raw, roasted, verde, macha, from what you have"
+},
+{
+"emoji": "🌮",
+"title": "Taco night",
+"subtitle": "Regional fillings, toppings and cook order"
+},
+{
+"emoji": "📷",
+"title": "Identify a chile",
+"subtitle": "Photo → name, heat, uses, substitute"
+},
+{
+"emoji": "🫓",
+"title": "Tortillas from scratch",
+"subtitle": "Corn or flour, press or no press"
+},
+{
+"emoji": "🍫",
+"title": "Mole & big batches",
+"subtitle": "A weekend mole you freeze in portions"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/mexican_comal-v1.0/mexican_comal-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/mexican_comal-v1.0/mexican_comal-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/mexican_comal.md",
+"kind": "factory",
+"icon_url": "icons/mexican_comal.svg"
 },
 {
 "id": "mind_ease",
@@ -3730,6 +4378,53 @@
 "icon_url": "icons/science_lab.svg"
 },
 {
+"id": "scoop_lab",
+"name": "Scoop Lab",
+"tagline": "Ice cream and sorbet that scoop straight from the freezer",
+"category": "Food & Drink",
+"about": "Scoop Lab balances ice cream, gelato and sorbet bases for your machine (or no machine), formulates flavours from sugar and fat targets, and fixes icy, grainy or rock-hard batches.",
+"colors": [
+"#00ACC1",
+"#F06292",
+"#FFEB3B"
+],
+"icon": "cup",
+"package": "com.mohithash.byok.scooplab",
+"tools": [
+{
+"emoji": "🧪",
+"title": "Balance a base",
+"subtitle": "Fat, sugar, solids for your machine"
+},
+{
+"emoji": "🍨",
+"title": "Formulate a flavour",
+"subtitle": "Mix-ins, ripples and infusions"
+},
+{
+"emoji": "❄️",
+"title": "No-machine methods",
+"subtitle": "Freezer-and-fork, no-churn, pint spinner"
+},
+{
+"emoji": "🧊",
+"title": "Fix a batch",
+"subtitle": "Icy, grainy, gummy, rock-hard"
+},
+{
+"emoji": "🎉",
+"title": "Sundae & party",
+"subtitle": "Sauces, toppings, quantities for a crowd"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/scoop_lab-v1.0/scoop_lab-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/scoop_lab-v1.0/scoop_lab-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/scoop_lab.md",
+"kind": "factory",
+"icon_url": "icons/scoop_lab.svg"
+},
+{
 "id": "side_hustle",
 "name": "Side Hustle Lab",
 "tagline": "Validate and launch a small business in a weekend",
@@ -3770,6 +4465,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/side_hustle.md",
 "kind": "factory",
 "icon_url": "icons/side_hustle.svg"
+},
+{
+"id": "silk_and_set",
+"name": "Silk & Set",
+"tagline": "Custards, mousses and cheesecakes that set perfectly",
+"category": "Food & Drink",
+"about": "Silk & Set formulates custards, mousses, panna cotta and cheesecake with the right gelatin, egg and cream ratios, walks you through tempering and water baths, and diagnoses splits, cracks and weeping from a photo.",
+"colors": [
+"#FFB300",
+"#6D4C41",
+"#00897B"
+],
+"icon": "drop",
+"package": "com.mohithash.byok.silkandset",
+"tools": [
+{
+"emoji": "🧮",
+"title": "Set calculator",
+"subtitle": "Gelatin or eggs for the texture you want"
+},
+{
+"emoji": "🍰",
+"title": "Cheesecake planner",
+"subtitle": "Baked, no-bake or Basque, sized to your tin"
+},
+{
+"emoji": "🥚",
+"title": "Custard walkthrough",
+"subtitle": "Temper eggs without scrambling"
+},
+{
+"emoji": "📷",
+"title": "Split, cracked or weeping?",
+"subtitle": "Photo → cause and rescue"
+},
+{
+"emoji": "✨",
+"title": "Plate it",
+"subtitle": "Turn a set dessert into a plated course"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/silk_and_set-v1.0/silk_and_set-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/silk_and_set-v1.0/silk_and_set-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/silk_and_set.md",
+"kind": "factory",
+"icon_url": "icons/silk_and_set.svg"
 },
 {
 "id": "skin_coach",
@@ -4360,6 +5102,53 @@
 "icon_url": "icons/teen_talk.svg"
 },
 {
+"id": "temper_lab",
+"name": "Temper Lab",
+"tagline": "Glossy, snappy chocolate every time",
+"category": "Food & Drink",
+"about": "Temper Lab walks you through tempering by seed, tabling or microwave with exact temperatures per chocolate, formulates ganache and bonbon fillings, and diagnoses bloom and streaks from a photo.",
+"colors": [
+"#3E2723",
+"#C9A227",
+"#E64A19"
+],
+"icon": "flame",
+"package": "com.mohithash.byok.temperlab",
+"tools": [
+{
+"emoji": "🌡️",
+"title": "Temper it",
+"subtitle": "Step-by-step with temperatures"
+},
+{
+"emoji": "🍫",
+"title": "Ganache formulator",
+"subtitle": "Ratios for any use"
+},
+{
+"emoji": "🧊",
+"title": "Bonbon session",
+"subtitle": "Plan a mould from shell to seal"
+},
+{
+"emoji": "📷",
+"title": "What went wrong?",
+"subtitle": "Photo of bloom, streaks or cracks"
+},
+{
+"emoji": "🍊",
+"title": "Flavour pairings",
+"subtitle": "What goes with this chocolate"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/temper_lab-v1.0/temper_lab-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/temper_lab-v1.0/temper_lab-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/temper_lab.md",
+"kind": "factory",
+"icon_url": "icons/temper_lab.svg"
+},
+{
 "id": "tenant_rights",
 "name": "Rent Ready",
 "tagline": "Letters, checklists and know-how for renters",
@@ -4402,6 +5191,53 @@
 "icon_url": "icons/tenant_rights.svg"
 },
 {
+"id": "thai_wok_mortar",
+"name": "Wok & Mortar",
+"tagline": "Thai cooking: pastes, stir-fries and perfect balance",
+"category": "Food & Drink",
+"about": "Wok & Mortar teaches Thai home cooking from the paste up: curry pastes from scratch, stir-fries timed in seconds, salads and som tam, noodle nights from the fridge and a taste-balancing doctor for when a dish is 'almost right'.",
+"colors": [
+"#7CB342",
+"#D81B60",
+"#FF8F00"
+],
+"icon": "spark",
+"package": "com.mohithash.byok.thaiwokmortar",
+"tools": [
+{
+"emoji": "🌶️",
+"title": "Curry paste from scratch",
+"subtitle": "Green, red, massaman, panang, jungle"
+},
+{
+"emoji": "🍳",
+"title": "Wok stir-fry",
+"subtitle": "Pad kra pao, pad see ew, cashew and more"
+},
+{
+"emoji": "⚖️",
+"title": "Balance my dish",
+"subtitle": "It's almost right — fix the taste"
+},
+{
+"emoji": "🥗",
+"title": "Som tam & salads",
+"subtitle": "Pounded salads, larb, yum"
+},
+{
+"emoji": "🍜",
+"title": "Noodle night",
+"subtitle": "From the noodles and fridge you have"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/thai_wok_mortar-v1.0/thai_wok_mortar-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/thai_wok_mortar-v1.0/thai_wok_mortar-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/thai_wok_mortar.md",
+"kind": "factory",
+"icon_url": "icons/thai_wok_mortar.svg"
+},
+{
 "id": "trivia_master",
 "name": "Quiz Host",
 "tagline": "Pub quizzes and trivia nights in minutes",
@@ -4442,6 +5278,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/trivia_master.md",
 "kind": "factory",
 "icon_url": "icons/trivia_master.svg"
+},
+{
+"id": "vietnamese_pho",
+"name": "Pho & Bánh",
+"tagline": "Vietnamese home cooking: broths, bánh mì, rolls and bowls",
+"category": "Food & Drink",
+"about": "Pho & Bánh guides Vietnamese home cooking: pho broth at three time budgets, bánh mì with proper pickles, fresh rolls with nước chấm, bún and cơm tấm plates, and a decoder for the herb plate and pantry.",
+"colors": [
+"#00838F",
+"#F4511E",
+"#8BC34A"
+],
+"icon": "pin",
+"package": "com.mohithash.byok.vietnamesepho",
+"tools": [
+{
+"emoji": "🍜",
+"title": "Pho broth",
+"subtitle": "Beef, chicken or vegan at your time budget"
+},
+{
+"emoji": "🥖",
+"title": "Bánh mì builder",
+"subtitle": "Pickles, protein, bread and layering"
+},
+{
+"emoji": "🥢",
+"title": "Fresh rolls & dipping sauces",
+"subtitle": "Gỏi cuốn with nước chấm and peanut sauce"
+},
+{
+"emoji": "🍚",
+"title": "Bún bowl or rice plate",
+"subtitle": "Bún thịt nướng, bún chả, cơm tấm"
+},
+{
+"emoji": "📷",
+"title": "Decode herbs & pantry",
+"subtitle": "Photo → which herb or sauce and how to use it"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/vietnamese_pho-v1.0/vietnamese_pho-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/vietnamese_pho-v1.0/vietnamese_pho-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/vietnamese_pho.md",
+"kind": "factory",
+"icon_url": "icons/vietnamese_pho.svg"
 },
 {
 "id": "volunteer_match",
@@ -4526,6 +5409,53 @@
 "listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/wedding_wiz.md",
 "kind": "factory",
 "icon_url": "icons/wedding_wiz.svg"
+},
+{
+"id": "west_african_pot",
+"name": "Jollof & Co",
+"tagline": "West African cooking: jollof, soups, swallows, street food",
+"category": "Food & Drink",
+"about": "Jollof & Co teaches Nigerian, Ghanaian, Senegalese and wider West African home cooking: party jollof with the smoky bottom, soups paired with the right swallow, suya and street snacks, plantain at every ripeness and where to find the ingredients abroad.",
+"colors": [
+"#EF6C00",
+"#1B5E20",
+"#4E342E"
+],
+"icon": "globe",
+"package": "com.mohithash.byok.westafricanpot",
+"tools": [
+{
+"emoji": "🍚",
+"title": "Jollof master",
+"subtitle": "Party jollof, Ghanaian or thieboudienne"
+},
+{
+"emoji": "🥘",
+"title": "Soup & swallow",
+"subtitle": "Match a soup to the right swallow"
+},
+{
+"emoji": "🍢",
+"title": "Suya & street snacks",
+"subtitle": "Suya, puff-puff, kelewele, akara, chin chin"
+},
+{
+"emoji": "🛒",
+"title": "Find the ingredients",
+"subtitle": "Your list → where to buy and what to swap"
+},
+{
+"emoji": "🍌",
+"title": "Plantain any ripeness",
+"subtitle": "Green, yellow or black-spotted"
+}
+],
+"apk": "https://github.com/Mohithash/byok-factory/releases/download/west_african_pot-v1.0/west_african_pot-v1.0.apk",
+"aab": "https://github.com/Mohithash/byok-factory/releases/download/west_african_pot-v1.0/west_african_pot-v1.0.aab",
+"source": "https://github.com/Mohithash/byok-factory",
+"listing": "https://github.com/Mohithash/byok-factory/blob/main/listings/west_african_pot.md",
+"kind": "factory",
+"icon_url": "icons/west_african_pot.svg"
 },
 {
 "id": "wine_food_veg",
