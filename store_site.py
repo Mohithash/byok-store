@@ -1,11 +1,69 @@
 #!/usr/bin/env python3
-"""Build the BYOK Store static site + catalog.json from Factory specs and the bespoke apps."""
-import json, glob, os, colorsys, sys
-sys.path.insert(0, "/root/claude/Factory")
-OUT = "/root/claude/Store/site"
+"""Build the BYOK Store static site + catalog.json from Factory specs and the bespoke apps.
+
+Paths
+  FACTORY  env var, else the first existing of ../byok-factory (next to this repo) and /root/claude/Factory
+  STORE    the directory this script lives in
+  OUT      <STORE>/site  (publish.sh copies it into docs/)
+
+The Factory's RELEASED_VERSION file (e.g. "1.0") names the newest version that has GitHub releases;
+it is used in the APK/AAB links. An app counts as released when its dist/ build exists OR the
+current docs/catalog.json already lists it as released, so machines without dist/ never demote apps.
+"""
+import ast, colorsys, datetime, glob, json, os, re, sys
+
+STORE = os.path.dirname(os.path.abspath(__file__))
+FACTORY = os.environ.get("FACTORY") or next(
+    (p for p in (os.path.join(os.path.dirname(STORE), "byok-factory"), "/root/claude/Factory") if os.path.isdir(p)), "")
+if not os.path.isdir(os.path.join(FACTORY, "specs")):
+    sys.exit(f"store_site.py: no Factory specs found at {FACTORY or '(none)'!r}; set FACTORY=/path/to/byok-factory")
+FACTORY = os.path.abspath(FACTORY)
+OUT = os.path.join(STORE, "site")
 os.makedirs(f"{OUT}/icons", exist_ok=True)
-exec(open("/root/claude/Factory/gen.py").read().split("def hx(")[0].split("GLYPHS = ")[0])  # noqa: imports only
-GLYPHS = eval(open("/root/claude/Factory/gen.py").read().split("GLYPHS = ")[1].split("\ndef hx(")[0])
+sys.path.insert(0, FACTORY)
+
+with open(os.path.join(FACTORY, "gen.py"), encoding="utf-8") as f:
+    GLYPHS = ast.literal_eval(f.read().split("GLYPHS = ")[1].split("\ndef hx(")[0])
+
+def released_version():
+    try:
+        with open(os.path.join(FACTORY, "RELEASED_VERSION"), encoding="utf-8") as f: v = f.read().strip().lstrip("vV")
+    except OSError: v = ""
+    if v and not re.fullmatch(r"\d+(\.\d+)*", v): sys.exit(f"store_site.py: bad RELEASED_VERSION {v!r}")
+    return v or "1.0"
+
+VER = released_version()
+TODAY = datetime.date.today().isoformat()
+
+# What every Factory-built app includes (engine v1.1). Shared by every factory app's "features" and the
+# top-level "engine_features"; hand-built apps have their own feature sets and get [].
+ENGINE_FEATURES = [
+    "Structured answers: steps, checklists, tables, cards",
+    "Follow-up questions that keep the whole thread as context",
+    "Regenerate or edit & rerun any result",
+    "Answers in 40+ languages",
+    "Brief / standard / detailed answers + standing instructions",
+    "Read aloud",
+    "Voice typing",
+    "Save as PDF, export Markdown, copy & share",
+    "Share text or photos into the app from anywhere",
+    "Launcher shortcuts for each tool",
+    "Favourites, notes, search and filters for saved results",
+    "Backup & restore (never includes your key)",
+    "Light, dark and Material You themes",
+    "Usage counter for your own key",
+    "Claude or any OpenAI-compatible endpoint (OpenAI, Groq, OpenRouter, Ollama…)",
+]
+
+# Released state of the currently published catalog: regenerating must never flip a released app back to "soon".
+PREV_RELEASED = set()
+_prev = os.path.join(STORE, "docs", "catalog.json")
+if os.path.exists(_prev):
+    try:
+        with open(_prev, encoding="utf-8") as f:
+            PREV_RELEASED = {a["id"] for a in json.load(f)["apps"] if a.get("released") is True}
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        print(f"warning: could not read {_prev}: {e}", file=sys.stderr)
 
 def hx(h): h = h.lstrip('#'); return tuple(int(h[i:i+2], 16) / 255 for i in (0, 2, 4))
 def tone(h, l, s=None):
@@ -13,15 +71,17 @@ def tone(h, l, s=None):
     return "#%02X%02X%02X" % tuple(max(0, min(255, round(c * 255))) for c in (r, g, b))
 
 apps = []
-for p in sorted(glob.glob("/root/claude/Factory/specs/*.json")):
-    s = json.load(open(p)); pid = s["id"]
+for p in sorted(glob.glob(f"{FACTORY}/specs/*.json")):
+    with open(p, encoding="utf-8") as f: s = json.load(f)
+    pid = s["id"]; tag = f"{pid}-v{VER}"
     apps.append({"id": pid, "name": s["name"], "tagline": s["tagline"], "category": s["category"], "about": s["about"],
         "colors": s["colors"], "icon": s.get("icon", "spark"), "package": f"com.mohithash.byok.{pid.replace('_','')}",
         "tools": [{"emoji": t["emoji"], "title": t["title"], "subtitle": t["subtitle"]} for t in s["tools"]],
-        "apk": f"https://github.com/Mohithash/byok-factory/releases/download/{pid}-v1.0/{pid}-v1.0.apk",
-        "aab": f"https://github.com/Mohithash/byok-factory/releases/download/{pid}-v1.0/{pid}-v1.0.aab",
+        "apk": f"https://github.com/Mohithash/byok-factory/releases/download/{tag}/{tag}.apk",
+        "aab": f"https://github.com/Mohithash/byok-factory/releases/download/{tag}/{tag}.aab",
         "source": "https://github.com/Mohithash/byok-factory", "listing": f"https://github.com/Mohithash/byok-factory/blob/main/listings/{pid}.md", "kind": "factory",
-        "released": os.path.exists(f"/root/claude/Factory/dist/{pid}-v1.0.aab")})
+        "released": os.path.exists(f"{FACTORY}/dist/{tag}.aab") or pid in PREV_RELEASED,
+        "version": VER, "features": list(ENGINE_FEATURES)})
 
 BESPOKE = [
  ("CalorieBank", "Calorie Bank", "Weight to lose as a kcal balance you spend down daily", "Health & Fitness", ["#1B5E4A", "#8A5A00", "#00658E"], "coin", "Bank model with daily settlement, zero-date estimate, water tracker and photo/text calorie estimation.", "v1.2", "CalorieBank-v1.2-release.apk", "CalorieBank-v1.2-release.aab", "com.mohithash.caloriebank"),
@@ -40,16 +100,23 @@ BESPOKE = [
 for d, name, tag, cat, colors, icon, about, ver, apk, aab, pkg in BESPOKE:
     apps.insert(0, {"id": d.lower(), "name": name, "tagline": tag, "category": cat, "about": about, "colors": colors, "icon": icon, "package": pkg, "tools": [],
         "apk": f"https://github.com/Mohithash/{d}/releases/download/{ver}/{apk}", "aab": f"https://github.com/Mohithash/{d}/releases/download/{ver}/{aab}",
-        "source": f"https://github.com/Mohithash/{d}", "listing": f"https://github.com/Mohithash/{d}#readme", "kind": "bespoke", "released": True})
+        "source": f"https://github.com/Mohithash/{d}", "listing": f"https://github.com/Mohithash/{d}#readme", "kind": "bespoke", "released": True,
+        "version": ver.lstrip("v"), "features": []})
 
 for a in apps:
     g = GLYPHS.get(a["icon"], GLYPHS["spark"]); c0, c1 = a["colors"][0], (a["colors"][1] if len(a["colors"]) > 1 else a["colors"][0])
-    open(f"{OUT}/icons/{a['id']}.svg", "w").write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{tone(c0,.42)}"/><stop offset="1" stop-color="{tone(c0,.20)}"/></linearGradient></defs><rect width="108" height="108" rx="26" fill="url(#g)"/><g transform="translate(28.8 28.8) scale(2.1)"><path fill="{tone(c1,.85)}" d="{g}"/></g></svg>''')
+    with open(f"{OUT}/icons/{a['id']}.svg", "w", encoding="utf-8") as f:
+        f.write(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{tone(c0,.42)}"/><stop offset="1" stop-color="{tone(c0,.20)}"/></linearGradient></defs><rect width="108" height="108" rx="26" fill="url(#g)"/><g transform="translate(28.8 28.8) scale(2.1)"><path fill="{tone(c1,.85)}" d="{g}"/></g></svg>''')
     a["icon_url"] = f"icons/{a['id']}.svg"
 
 cats = sorted(set(a["category"] for a in apps))
-json.dump({"generated": "2026-09-19", "count": len(apps), "categories": cats, "apps": apps}, open(f"{OUT}/catalog.json", "w"), ensure_ascii=False, indent=0)
+catalog = {"generated": TODAY, "updated": TODAY, "count": len(apps), "categories": cats,
+           "engine_features": list(ENGINE_FEATURES), "apps": apps}
+with open(f"{OUT}/catalog.json", "w", encoding="utf-8") as f:
+    json.dump(catalog, f, ensure_ascii=False, indent=0)
 
-html = open("/root/claude/Store/template.html").read().replace("__COUNT__", str(len(apps))).replace("__CATS__", json.dumps(cats))
-open(f"{OUT}/index.html", "w").write(html)
-print(len(apps), "apps,", len(cats), "categories")
+with open(os.path.join(STORE, "template.html"), encoding="utf-8") as f:
+    html = f.read().replace("__COUNT__", str(len(apps))).replace("__CATS__", json.dumps(cats).replace("</", "<\\/"))
+with open(f"{OUT}/index.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(len(apps), "apps,", len(cats), "categories,", sum(a["released"] for a in apps), "released, links v" + VER, "· Factory", FACTORY)
