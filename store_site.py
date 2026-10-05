@@ -46,7 +46,7 @@ FEATURES_BY_VERSION = {
         "Personalised with your profile",
         "Saved on your phone: favourites, search, tickable checklists",
         "Copy & share any answer",
-        "Claude or any OpenAI-compatible endpoint (OpenAI, Groq, OpenRouter, Ollama…)",
+        "Claude or any OpenAI-compatible https endpoint (OpenAI, Groq, OpenRouter…)",
     ],
     "1.1": [
         "Structured answers: steps, checklists, tables, cards",
@@ -57,7 +57,7 @@ FEATURES_BY_VERSION = {
         "Read aloud",
         "Voice typing",
         "Save as PDF, export Markdown, copy & share",
-        "Share text or photos into the app from anywhere",
+        "{share}",
         "Launcher shortcuts for each tool",
         "Favourites, notes, search and filters for saved results",
         "Backup & restore (never includes your key)",
@@ -75,7 +75,14 @@ def features_for(ver):
     usable = [k for k in known if _vkey(k) <= _vkey(ver)]
     return FEATURES_BY_VERSION[usable[-1] if usable else known[0]]
 
-ENGINE_FEATURES = features_for(VER)
+# "{share}" depends on the app: only apps with a photo tool accept shared photos.
+SHARE_LINE = {True: "Share text or photos into the app from anywhere", False: "Share text into the app from anywhere",
+              None: "Share text (and photos, in apps with a photo tool) into the app from anywhere"}
+
+def app_features(ver, has_photo=None):
+    return [SHARE_LINE[has_photo] if f == "{share}" else f for f in features_for(ver)]
+
+ENGINE_FEATURES = app_features(VER)
 
 # Released state of the currently published catalog: regenerating must never flip a released app back to "soon".
 PREV_RELEASED = set()
@@ -103,7 +110,7 @@ for p in sorted(glob.glob(f"{FACTORY}/specs/*.json")):
         "aab": f"https://github.com/Mohithash/byok-factory/releases/download/{tag}/{tag}.aab",
         "source": "https://github.com/Mohithash/byok-factory", "listing": f"https://github.com/Mohithash/byok-factory/blob/main/listings/{pid}.md", "kind": "factory",
         "released": os.path.exists(f"{FACTORY}/dist/{tag}.aab") or pid in PREV_RELEASED,
-        "version": VER, "features": list(ENGINE_FEATURES)})
+        "version": VER, "features": app_features(VER, any(f.get("type") == "photo" for t in s["tools"] for f in t.get("inputs", [])))})
 
 BESPOKE = [
  ("CalorieBank", "Calorie Bank", "Weight to lose as a kcal balance you spend down daily", "Health & Fitness", ["#1B5E4A", "#8A5A00", "#00658E"], "coin", "Bank model with daily settlement, zero-date estimate, water tracker and photo/text calorie estimation.", "v1.2", "CalorieBank-v1.2-release.apk", "CalorieBank-v1.2-release.aab", "com.mohithash.caloriebank"),
