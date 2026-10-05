@@ -35,25 +35,47 @@ def released_version():
 VER = released_version()
 TODAY = datetime.date.today().isoformat()
 
-# What every Factory-built app includes (engine v1.1). Shared by every factory app's "features" and the
-# top-level "engine_features"; hand-built apps have their own feature sets and get [].
-ENGINE_FEATURES = [
-    "Structured answers: steps, checklists, tables, cards",
-    "Follow-up questions that keep the whole thread as context",
-    "Regenerate or edit & rerun any result",
-    "Answers in 40+ languages",
-    "Brief / standard / detailed answers + standing instructions",
-    "Read aloud",
-    "Voice typing",
-    "Save as PDF, export Markdown, copy & share",
-    "Share text or photos into the app from anywhere",
-    "Launcher shortcuts for each tool",
-    "Favourites, notes, search and filters for saved results",
-    "Backup & restore (never includes your key)",
-    "Light, dark and Material You themes",
-    "Usage counter for your own key",
-    "Claude or any OpenAI-compatible endpoint (OpenAI, Groq, OpenRouter, Ollama…)",
-]
+# What every Factory-built app includes, per engine version. The catalog advertises the list for the
+# version people can actually download (RELEASED_VERSION), so the store never promises features the
+# linked APKs don't have yet. Shared by every factory app's "features" and the top-level
+# "engine_features"; hand-built apps have their own feature sets and get [].
+FEATURES_BY_VERSION = {
+    "1.0": [
+        "Structured answers: steps, checklists, tables, cards",
+        "Follow-up questions that keep the result as context",
+        "Personalised with your profile",
+        "Saved on your phone: favourites, search, tickable checklists",
+        "Copy & share any answer",
+        "Claude or any OpenAI-compatible endpoint (OpenAI, Groq, OpenRouter, Ollama…)",
+    ],
+    "1.1": [
+        "Structured answers: steps, checklists, tables, cards",
+        "Follow-up questions that keep the whole thread as context",
+        "Regenerate or edit & rerun any result",
+        "Answers in 40+ languages",
+        "Brief / standard / detailed answers + standing instructions",
+        "Read aloud",
+        "Voice typing",
+        "Save as PDF, export Markdown, copy & share",
+        "Share text or photos into the app from anywhere",
+        "Launcher shortcuts for each tool",
+        "Favourites, notes, search and filters for saved results",
+        "Backup & restore (never includes your key)",
+        "Light, dark and Material You themes",
+        "Usage counter for your own key",
+        "Claude or any OpenAI-compatible endpoint (OpenAI, Groq, OpenRouter, Ollama…)",
+    ],
+}
+
+def _vkey(v): return tuple(int(x) for x in v.split("."))
+
+def features_for(ver):
+    """The feature list of the newest engine version that is <= ver (the oldest list if none is)."""
+    known = sorted(FEATURES_BY_VERSION, key=_vkey)
+    usable = [k for k in known if _vkey(k) <= _vkey(ver)]
+    return FEATURES_BY_VERSION[usable[-1] if usable else known[0]]
+
+ENGINE_FEATURES = features_for(VER)
 
 # Released state of the currently published catalog: regenerating must never flip a released app back to "soon".
 PREV_RELEASED = set()

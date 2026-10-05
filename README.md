@@ -22,12 +22,14 @@ rm -rf docs/* && cp -r site/* docs/                   # what publish.sh does bef
 
 Top level: `generated` / `updated` (ISO date of the build), `count`, `categories`, `engine_features`, `apps`.
 
+`engine_features` comes from `FEATURES_BY_VERSION` in `store_site.py`: the list for the newest engine version ≤ the Factory's `RELEASED_VERSION`, so the store only promises what the downloadable APKs actually do. Add the next version's list there before bumping `RELEASED_VERSION`.
+
 Each app has `id`, `name`, `tagline`, `category`, `about`, `colors`, `icon`, `icon_url`, `package`, `tools[]` (`emoji`, `title`, `subtitle`), `apk`, `aab`, `source`, `listing`, `kind` (`factory` | `bespoke`), `released`, and:
 
 | field | factory apps | hand-built (`bespoke`) apps |
 |---|---|---|
 | `version` | the factory `RELEASED_VERSION` | that app's own release (e.g. `1.2`) |
-| `features` | what every factory app includes (same list as `engine_features`) | `[]` (their abilities are described in `about`) |
+| `features` | what every factory app includes at its released `version` (same list as `engine_features`) | `[]` (their abilities are described in `about`) |
 
 Fields are only ever **added**, never renamed or removed, so older StoreApp builds keep working.
 
