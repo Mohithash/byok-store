@@ -37,8 +37,9 @@ TODAY = datetime.date.today().isoformat()
 
 # What every Factory-built app includes, per engine version. The catalog advertises the list for the
 # version people can actually download (RELEASED_VERSION), so the store never promises features the
-# linked APKs don't have yet. Shared by every factory app's "features" and the top-level
-# "engine_features"; hand-built apps have their own feature sets and get [].
+# linked APKs don't have yet. Each factory app's "features" is this list with the "{share}" line filled in for
+# that app (photos only where a tool takes one); the top-level "engine_features" uses the generic share line.
+# Hand-built apps have their own feature sets and get [].
 FEATURES_BY_VERSION = {
     "1.0": [
         "Structured answers: steps, checklists, tables, cards",

@@ -29,7 +29,7 @@ Each app has `id`, `name`, `tagline`, `category`, `about`, `colors`, `icon`, `ic
 | field | factory apps | hand-built (`bespoke`) apps |
 |---|---|---|
 | `version` | the factory `RELEASED_VERSION` | that app's own release (e.g. `1.2`) |
-| `features` | what every factory app includes at its released `version` (same list as `engine_features`) | `[]` (their abilities are described in `about`) |
+| `features` | what the app includes at its released `version`: the `engine_features` list, except that from v1.1 the share-into-the-app line is per app (photos only for apps with a photo tool) | `[]` (their abilities are described in `about`) |
 
 Fields are only ever **added**, never renamed or removed, so older StoreApp builds keep working.
 
